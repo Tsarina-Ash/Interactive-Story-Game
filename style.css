@@ -1,5 +1,11 @@
 /*back-end stuff*/
 
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
 .home{
     background: linear-gradient(121deg, rgb(255, 255, 255) 28%, rgb(65, 62, 62) 96%);
     height: 100%;
@@ -7,16 +13,45 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/*Massive Text box*/
 
-.smalllogofooter {
-    width: auto;
-    height: 50px;  
-    position: fixed;
-    right: 0;
-    top: 0;  
+.filledtextbox {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  font-size: 5em; 
+  color: #333;
 }
 
+.textbox {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  font-size: 5em; 
+  color: #333;
+}
+
+.textboximage { 
+  width: auto;
+  height: 200px;  
+}
 /*top nav bar*/
+
+.smalllogofooter {
+  width: auto;
+  height: 50px;  
+  position: fixed;
+  right: 0;
+  top: 0;  
+}
+
 
 .topnav {
     background-color: #333;
@@ -93,6 +128,6 @@
     right: 0;
     bottom: 0;  
     color: white; 
-    width: 160px;
+    width: 180px;
     font-size: 0.8rem; 
 }

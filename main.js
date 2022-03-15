@@ -1,4 +1,4 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+// Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
 function myFunction() {
 	var x = document.getElementById("myTopnav");
 	if (x.className === "topnav") {
@@ -8,6 +8,7 @@ function myFunction() {
 	}
   }
 
+ HEAD
 //     // new JS, trying to make a play butotn
 //   var x = document.getElementById("beeg");//start button 
 //   var restart = document.getElementById("restart");//restart button
@@ -107,3 +108,10 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     
     }//end of window.onload, do NOT put any JS after this
     
+
+// TNO JAVASCRIPT
+
+// MYSTERY JAVASCRIPT
+
+// GAME JAVASCRIPT
+ a693e4d8c2d9913a6340f65dc701fb2e506b5a8f

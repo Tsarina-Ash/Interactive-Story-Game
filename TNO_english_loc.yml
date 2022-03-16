@@ -1,0 +1,107 @@
+﻿l_english:
+
+: ""
+
+
+#INDEX#
+#nix_
+#nix_intro
+#jfk_
+#jfk_intro
+#lbj_
+#lbj_intro
+
+#START#
+
+opener: "1962 Nazi Germany has most of Europe under its control, Japan has its respective empire in Asia controlling a portion of the continent and some ex-American territories such as the Philippines, Hawaii, a port in LA and a port in San Francisco. Italy has created its Mediterranean dream with an alliance between Turkey, the Iberian Union and it’s holdings across the Mediterranean. Russia has been shattered in dozens if not hundreds of warlords with many prominent ones remaining and bidingfor control of their respective territories. With the three ex-allies (Japan, Germany and Italy) being powerhouses they seem to be on top of the world however there are cracks being formed everywhere. Germany’s economic failures of the 50’s and its aging fuher have led to many of his previous loyal commanders fighting over the role of fuhrer while he’s still alive. Germany’s colonies and the SS have been difficult for the federal government to control due to their huge size and the aging administration. Due to this the United States has set up its own alliance of countries still free from Japan and Germany, the Organization of Free Nations (OFN for short)."
+
+opener_N: "Richard Nixon" #GOES TO nix_intro
+
+opener_J: "John Fitzgerald Kennedy" #GOES TO jfk_intro
+
+opener_L: "Lyndon Baines Johnson" #GOES TO lbj_intro
+
+#NIXON#
+
+nix_intro: "Nixon was born into a poor family of Quakers in a small town in Southern California. He graduated from Duke Law School in 1937, practiced law in California, then moved with his wife Pat to Washington in 1942 to work for the federal government. After active duty in the Naval Reserve during World War II, he was elected to the House of Representatives in 1946. His work on the Alger Hiss Case established his reputation as a leading anti-Communist, which elevated him to national prominence, and in 1950, he was elected to the Senate. Nixon was the running mate of Dwight D. Eisenhower, the Republican Party's presidential nominee in the 1952 election, and served for eight years as the vice president."
+
+nix_watergate_event: "Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter."
+
+nix_resign_event: "In the past few days, however, it has become evident to me that I no longer have a strong enough political base in the Congress to justify continuing that effort. As long as there was such a base, I felt strongly that it was necessary to see the constitutional process through to its conclusion, that to do otherwise would be unfaithful to the spirit of that deliberately difficult process and a dangerously destabilizing precedent for the future."
+
+nix_resign: "Go On Television and resign formally" #ENDS GAME
+
+nix_fight_event: ..."In recent months, members of my Administration and officials of the Committee for the Re-Election of the President including some of my closest friends and most trusted aides—have been charged with involvement in what has come to he known as the Watergate affair. These include charges of illegal activity during and preceding the 1960 Presidential election and charges that responsible officials participated in efforts to cover up that illegal activity..."
+
+nix_fight: "Go On Television and claim innocence"
+
+nixon_blame_communists_event: "With the logistical support of Communist China and the Soviet Union, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president"
+
+nix_blame_communists: "Blame the communists" #ENDS GAME
+
+nix_cooperate_event: "*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?"
+
+nix_cooperate: "Co-operate and make concessions"
+
+nix_south_african_war: "They Use Artillery, We Use Napalm, They Use Gas, We Use Nukes. Who Do You Think Will Fall First ?"
+
+nix_south_african_war_event: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *Turns off the TV and picks up the phone* 'Justine ?' give me a phone line to the CIA director now."
+
+nix_full_military_escalation: "Full Military Escalation"
+
+nix_full_military_escalation_event: "The full escalation of military troops by deploying 7,000 marines should assist and in certain instances engage in combat against the German forces in Southern Africa and be assisted with American naval and aerial forces to prevent forces from which came from evil territories to expand."
+
+nix_operation_ranch_hand: "Approve Operation Ranch-Hand"
+
+nix_operation_ranch_hand_event: "Ranch-Hand is a operation to drop mass amounts of pesticides, herbicides on mass and dense forests to prevent guerilla forces from ambushing American and South African troops among other allies in the region leaving less American citizens dead and more of them dead."
+
+nix_operation_rolling_thunder: "Approve Operation Rolling Thunder"
+
+nix_operation_rolling_thunder_event: "Rolling thunder is an operation to begin an aerial bombardment campaign enmasse targetting civilian areas with such force not seen since the second world war and will be devastating to the German's economic and political manueverability in the region and will demoralize our enemy greatly. With this the first major run will be run on Luanda hopefully devastating the Angolan's strategic capabilities."
+
+nix_operation_rolling_thunder: "Gulf Of Tonkin Charter"
+
+nix_operation_rolling_thunder_event: "Take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Mittel-Africa as the Germans would say. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region."
+
+nix_event_watergate: "NIXON NO MORE NIXON"
+
+nix_resign: "Resign From Presidency" #ENDS THE GAME#
+
+nix_resign_event: "In the past few days, however, it has become evident to me that I no longer have a strong enough political base in the Congress to justify continuing that effort. As long as there was such a base, I felt strongly that it was necessary to see the constitutional process through to its conclusion, that to do otherwise would be unfaithful to the spirit of that deliberately difficult process and a dangerously destabilizing precedent for the future."
+
+nix_fight: "Go On Television and claim innocence"
+
+nixon_blame_communists_event: "With the logistical support of Communist China and the Soviet Union, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president"
+
+nix_gets_impeached: "Victory ?" #ENDS THE GAME#
+
+nix_gets_impeached_event: "Impeachment... Only one of the three presidents to be tried for impeachment... What an embarrassment."
+
+#JFK#
+
+jfk_intro: "Born into the prominent Kennedy family in Brookline, Massachusetts, Kennedy graduated from Harvard University in 1940 before joining the U.S. Naval Reserve the following year. During World War II, he commanded a series of PT boats in the Pacific theater. Kennedy's survival of the sinking of PT-109 and rescue of his fellow sailors made him a war hero for which he earned the Navy and Marine Corps Medal, but left him with serious injuries. After a brief stint in journalism, Kennedy represented a working-class Boston district in the U.S. House of Representatives from 1947 to 1953. He was subsequently elected to the U.S. Senate and served as the junior senator for Massachusetts from 1953 to 1960. While in the Senate, Kennedy published his book, Profiles in Courage, which won a Pulitzer Prize."
+
+jfk_event: "Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter."
+
+
+
+
+
+jfk_south_african_war: "Intervention in South Africa"
+
+jfk_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *Turns off the TV* Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
+
+#LBJ#
+
+lbj_intro: "Born in a farmhouse in Stonewall, Texas, to a local political family, Johnson worked as a high school teacher and a congressional aide before winning election to the U.S. House of Representatives in 1937. He won election to the United States Senate in 1948 after narrowly winning the Democratic Party's nomination.[2] He was appointed to the position of Senate Majority Whip in 1951. He became the Senate Democratic leader in 1953 and majority leader in 1954. In 1960 Johnson ran for the Democratic nomination for president. During the convention he came into conflict with the Democratic front-runner, fellow senator John F. Kennedy. The two men compromised and the Kennedy-Johnson ticket won in the 1960 presidential election."
+
+lbj_event: "Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter."
+
+
+
+
+
+
+lbj_south_african_war: "Intervention in South Africa"
+
+lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *JFK Turns off the TV* Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."

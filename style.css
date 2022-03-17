@@ -57,19 +57,6 @@
   background-color: #333;
 }
 
-.tnotextbox{
-  padding: 12vh 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 35vh;
-  color: white;
-  margin-top:20px;
-  background-color: #333;
-}
-
-
 .textboximage { 
   width: auto;
   height: 200px;  
@@ -268,6 +255,72 @@
 
 /*TNO SPECIAL CUSTOMIZATION*/
 
+.tnotextbox{
+  padding: 6vh 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 35vh;
+  color: white;
+  margin-top:20px;
+  background-color: #333;
+}
+
+#beeg {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 17vh;
+}
+
+#beeg:hover{
+  transform: scale(0.9);
+}
+#restart {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 2vh;
+}
+
+#restart:hover{
+  transform: scale(0.9);
+}
+
+#buttonArea button {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 1vh;
+}
+
+#buttonArea button:hover{
+  transform: scale(0.9);
+}
+
+#buttonArea {
+  display: flex;
+  justify-content: space-around;
+}
 /*HORROR SPECIAL CUSTOMIZATION*/
 
 /*GAME SPECIAL CUSTOMIZATION*/

@@ -35,7 +35,7 @@ nix_fight_event: ..."In recent months, members of my Administration and official
 
 nix_fight: "Go On Television and claim innocence"
 
-nixon_blame_communists_event: "With the logistical support of Communist China and the Soviet Union, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president"
+nixon_blame_communists_event: "...With the logistical support of Hitler's Germany and Tojo's Japan, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president... Inorder To destabilize the country they have released these papers however false they are, the threat from them exists..."
 
 nix_blame_communists: "Blame the communists" #ENDS GAME
 
@@ -45,7 +45,7 @@ nix_cooperate: "Co-operate and make concessions"
 
 nix_south_african_war: "They Use Artillery, We Use Napalm, They Use Gas, We Use Nukes. Who Do You Think Will Fall First ?"
 
-nix_south_african_war_event: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust."" *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."
+nix_south_african_war_event: "After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust."" *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."
 
 nix_full_military_escalation: "Full Military Escalation"
 
@@ -63,15 +63,17 @@ nix_operation_rolling_thunder: "Gulf Of Tonkin Charter"
 
 nix_operation_rolling_thunder_event: "Take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Mittel-Africa as the Germans would say. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region."
 
-nix_event_watergate: "NIXON NO MORE NIXON"
+nix_watergate_resurfaced: "NIXON NO MORE NIXON"
 
-nix_resign: "Resign From Presidency" #ENDS THE GAME#
+nix_watergate_resurfaced_event: "I regret that these events took place and I do not question the right of a Senate committee to investigate charges made against the president to the extent that this is relevant to legislative duties. However, it is my constitutional responsibility to defend the integrity of this great office against false charges. Many have urged that in order to help prove the truth of what I have said, I should turn over to the special prosecutor and the Senate committee recordings of conversations that I held in my office or on my telephone. However, a much more important principle is involved in this question than what the tapes might prove about Watergate. Each day, a president of the United States is required to make difficult decisions on grave issues. It is absolutely necessary, if the president is to be able to do his job as the country expects, that he be able to talk openly and candidly with his advisers about issues and individuals. This kind of frank discussion is only possible when those who take part in it know that what they say is in strictest confidence."
 
-nix_resign_event: "In the past few days, however, it has become evident to me that I no longer have a strong enough political base in the Congress to justify continuing that effort. As long as there was such a base, I felt strongly that it was necessary to see the constitutional process through to its conclusion, that to do otherwise would be unfaithful to the spirit of that deliberately difficult process and a dangerously destabilizing precedent for the future."
+nix_watergate_resurfaced_resign: "Resign From Presidency" #ENDS THE GAME#
 
-nix_fight: "Go On Television and claim innocence"
+nix_watergate_resurfaced_resign: "In the past few days, however, it has become evident to me that I no longer have a strong enough political base in the Congress to justify continuing that effort. As long as there was such a base, I felt strongly that it was necessary to see the constitutional process through to its conclusion, that to do otherwise would be unfaithful to the spirit of that deliberately difficult process and a dangerously destabilizing precedent for the future."
 
-nixon_blame_communists_event: "With the logistical support of Communist China and the Soviet Union, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president"
+nix_watergate_resurfaced_fight: "Go On Television and claim innocence"
+
+nix_watergate_resurfaced_fight_event: "...With the logistical support of Hitler's Germany and Tojo's Japan, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president... Inorder To destabilize the country they have released these papers however false they are, the threat from them exists..."
 
 nix_gets_impeached: "Victory ?" #ENDS THE GAME#
 

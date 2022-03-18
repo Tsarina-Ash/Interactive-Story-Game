@@ -8,6 +8,7 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     },
  
 //nixon    
+// document.getElementById("topmidimage").src="images/TNO/usflag.png";
 
     nix_intro: {
       text: `Nixon was born into a poor family of Quakers in a small town in Southern California. He graduated from Duke Law School in 1937, practiced law in California, then moved with his wife Pat to Washington in 1942 to work for the federal government. After active duty in the Naval Reserve during World War II, he was elected to the House of Representatives in 1946. His work on the Alger Hiss Case established his reputation as a leading anti-Communist, which elevated him to national prominence, and in 1950, he was elected to the Senate. Nixon was the running mate of Dwight D. Eisenhower, the Republican Party's presidential nominee in the 1952 election, and served for eight years as the vice president.`,
@@ -38,45 +39,51 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     },
 
     nix_south_african_war: {
-      text: `"After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust." *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."`,
+      text: `"After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust." *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."`,
       options: [["nix_full_military_escalation", "Begin A Light Intervention"]],
     },
 
     nix_full_military_escalation: {
-      text: `"The full escalation of military troops by deploying 7,000 marines should assist and in certain instances engage in combat against the German forces in Southern Africa and be assisted with American naval and aerial forces to prevent forces from which came from evil territories to expand." *Turns Off TV* "Sherman ? What are our current proposed operations ?" Sherman replies, "Nix, we have 3 main operations for you to approve, Operation Rolling Tunder, Operation Ranch Hand, Operation Angal and as proposed by the CIA director Operation Jungle Run. Which one will you Approve ?"`,
+      text: `"The full escalation of military troops by deploying 7,000 marines should assist and in certain instances engage in combat against the German forces in Southern Africa and be assisted with American naval and aerial forces to prevent forces from which came from the territories to expand." *Turns Off TV* "General ? What are our current proposed operations ?" The General replies, "Nix, we have 3 main operations for you to approve, Operation Rolling Tunder, Operation Ranch Hand, Operation Jungle Run and as proposed by the CIA director Operation Angal. Which one will you Approve ?"`,
       options: [["nix_operation_ranch_hand", "Operation Ranch Hand"], ["nix_operation_rolling_thunder", "Operation Rolling Thunder"], ["nix_operation_angal", "Operation Angal"], ["nix_operation_jungle_run", "Operation Jungle Run"]],
     },
 
     nix_operation_ranch_hand: {
-      text: `*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?`,
-      options: [["nix_event_watergate", "Papers and audio tapes leak out"]],
+      text: `"We as Americans and as the free world must take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Middle-Africa. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region. This operation, Ranch Hand it will not be a clean operation, it will not be the most flashy operation nor the most powerful one but it will prevent the most amount of American casualites as the Africans get their papers in order. We are simply there to contain the German states until the South Africans can push back by themselves."`,
+      options: [["nix_watergate_resurfaced", "Begin Drafting Soldiers and Mobilizing"], ["nix_watergate_resurfaced", "Begin Withdrawling Troops"]],
     },
 
     nix_operation_rolling_thunder: {
-      text: `*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?`,
-      options: [["nix_event_watergate", "Papers and audio tapes leak "]],
+      text: `"We as Americans and as the free world must take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Middle-Africa. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region and alonsides this development Rolling thunder is an operation to begin an aerial bombardment campaign enmasse targetting civilian areas with such force not seen since the second world war and will be devastating to the German's economic and political manueverability in the region and will demoralize our enemy greatly. With this the first major run will be run on Luanda hopefully devastating the Angolan's strategic capabilities."`,
+      options: [["nix_watergate_resurfaced", "Begin Drafting Soldiers and Mobilizing"], ["nix_watergate_resurfaced", "Begin Withdrawling Troops"]],
     },
 
     nix_operation_angal: {
-      text: `*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?`,
-      options: [["nix_event_watergate", "Papers and audio tapes leak "]],
+      text: `"We as Americans and as the free world must take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Middle-Africa. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region. With this new reion under attack that has not seen combat in decades a new method to warfare will be tested and trialed. Thank you that will be all for tonight."`,
+      options: [["nix_watergate_resurfaced", "Begin Drafting Soldiers and Mobilizing"], ["nix_watergate_resurfaced", "Begin Withdrawling Troops"]],
     },
 
     nix_operation_jungle_run: {
-      text: `*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?`,
-      options: [["nix_event_watergate", "Papers and audio tapes leak "]],
+      text: `"We as Americans and as the free world must take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression by the German puppet states of Middle-Africa. Our forces must be large enough in the region to find out some solution in the region. Another 100,000 troops will be assigned and redeployed to the region. Alongsides this our staff has alternatively decided to launch multiple simotaneous invasions in many different capacities here, this will be a prolonged and expensive war hitting American's pockets deep, however it is something that must happen to contain and push back the Germans. Through this I will ask the United States congress to declare war on the German sattilite states and for the military high command to take full control with what we call Operation Jungle Run."`,
+      options: [["nix_watergate_resurfaced", "Begin Drafting Soldiers and Mobilizing"]],
     },
 
-
-//here
-    nix: {
-      text: ``,
-      options: [["guildAccept", "Sign Up"], ["guildNo", "Don't Sign Up"], ["guildDont", "Decide that Guilds are Dumb"]],
+    nix_watergate_resurfaced: {
+      text: `"I regret that these events took place and I do not question the right of a Senate committee to investigate charges made against the president to the extent that this is relevant to legislative duties. However, it is my constitutional responsibility to defend the integrity of this great office against false charges. Many have urged that in order to help prove the truth of what I have said, I should turn over to the special prosecutor and the Senate committee recordings of conversations that I held in my office or on my telephone. However, a much more important principle is involved in this question than what the tapes might prove about Watergate. Each day, a president of the United States is required to make difficult decisions on grave issues. It is absolutely necessary, if the president is to be able to do his job as the country expects, that he be able to talk openly and candidly with his advisers about issues and individuals. This kind of frank discussion is only possible when those who take part in it know that what they say is in strictest confidence."`,
+      options: [["nix_watergate_resurfaced_resign", "Girls, pack your bags, We're going back to California..."], ["nix_watergate_resurfaced_fight", "Fight The Impeachment"]],
     },
 
-    nix: {
-      text: ``,
-      options: [["guildAccept", "Sign Up"], ["guildNo", "Don't Sign Up"], ["guildDont", "Decide that Guilds are Dumb"]],
+    nix_watergate_resurfaced_resign: {
+      text: `"In the past few days, however, it has become evident to me that I no longer have a strong enough political base in the Congress to justify continuing that effort. As long as there was such a base, I felt strongly that it was necessary to see the constitutional process through to its conclusion, that to do otherwise would be unfaithful to the spirit of that deliberately difficult process and a dangerously destabilizing precedent for the future."`,
+    },
+
+    nix_watergate_resurfaced_fight: {
+      text: `"...With the logistical support of Hitler's Germany and Tojo's Japan, they launched a campaign to impose a Communist government on the United States by instigating and supporting a revolution and framing the president... Inorder To destabilize the country they have released these papers however false they are, the threat from them exists..."`,
+      options: [["nix_watergate_resurfaced_impeached", "Victory ?"]],
+    },
+
+    nix_watergate_resurfaced_impeached: {
+      text: `Impeachment... Only one of the three presidents to be tried for impeachment... What an embarrassment.`,
     },
 
 //jfk
@@ -96,19 +103,21 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
 
     };
     
+    //code
+
     var playerChoices = ["opener"];//array containing variables
-    
-    
+       
+
     var x = document.getElementById("beeg");//start button 
     var restart = document.getElementById("restart");//restart button
     var playArea = document.getElementById("playArea");//refers to play area
     var buttonArea = document.getElementById("buttonArea");//refers to button area
-    
+    var topmidimage = document.getElementById("topmidimage");
+
     function createButton(btnText, choice) {
       var button = document.createElement("button"); //creates button
       button.innerHTML = btnText;//changes button text according to "options" in array
       buttonArea.appendChild(button);//adds button that has changed name
-    
       button.addEventListener("click", function(){//when button that is generated is clicked, add choice to playerChoices and run createStory
         playerChoices.push(choice);
         createStory();
@@ -146,3 +155,4 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     
     }//end of window.onload, do NOT put any JS after this
     
+    //image adder/replacer

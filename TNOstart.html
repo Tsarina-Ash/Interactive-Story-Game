@@ -20,10 +20,16 @@
           <i class="fa fa-bars"></i>
         </a>
     </div>
-
-    <img src="" alt="" id="dynamic-image">
+    
+    <img id="banner" src="image.jpg" />
+    <script>
+      const img = document.getElementById("banner");
+      img.src = "newImage.png";
+    </script>
+    <img src="images\TNO\jfk.png" alt="" id="dynamic-image">
 
     <div class = "tnotextbox">
+      
         <button id="beeg" onclick="style.display = 'none'">
             START
         </button>

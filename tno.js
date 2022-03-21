@@ -8,9 +8,10 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     },
  
 //nixon    
-// document.getElementById("topmidimage").src="images/TNO/usflag.png";
+
 
     nix_intro: {
+      src: "images/TNO/lbj.png",
       text: `Nixon was born into a poor family of Quakers in a small town in Southern California. He graduated from Duke Law School in 1937, practiced law in California, then moved with his wife Pat to Washington in 1942 to work for the federal government. After active duty in the Naval Reserve during World War II, he was elected to the House of Representatives in 1946. His work on the Alger Hiss Case established his reputation as a leading anti-Communist, which elevated him to national prominence, and in 1950, he was elected to the Senate. Nixon was the running mate of Dwight D. Eisenhower, the Republican Party's presidential nominee in the 1952 election, and served for eight years as the vice president.`,
       options: [["nix_watergate_event", "RD-Papers Leak Out"]],
     },
@@ -102,11 +103,10 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     
 
     };
-    
     //code
 
     var playerChoices = ["opener"];//array containing variables
-       
+  
 
     var x = document.getElementById("beeg");//start button 
     var restart = document.getElementById("restart");//restart button
@@ -128,7 +128,22 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
     function addStory(text){//changes playArea text to choice
       playArea.innerHTML = text;
     }
-    
+function addImage(){
+  let element = document.getElementById("dynamic-image"),
+  imageSrc = "path/to/image.jpg";
+
+  function updateImage(src){ element.innerHTML `<img src="${src}" alt="dynamic image"`}
+  
+  updateImage(imageSrc);
+}
+function dontBreak() {
+  var img = document.createElement("img");
+  img.src = "images/TNO/lbj.png";
+
+  var div = document.getElementById("dynamic-image");
+  div.appendChild(img);
+}
+
     function createStory(text){
       let pageNow = playerChoices[playerChoices.length - 1];
       playArea.innerHTML = "";//empties play area

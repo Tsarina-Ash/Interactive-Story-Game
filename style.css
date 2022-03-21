@@ -267,7 +267,7 @@
   background-color: #333;
 }
 
-#topmidimage {
+#dynamic-image {
   padding: 12vh 0;
   text-align: center;
   margin-left: auto;
@@ -278,6 +278,7 @@
   color: white;
   margin-top:20px;
   background-color: #333;
+  background-image: url('images/TNO/nixon.png');
 }
 
 #beeg {

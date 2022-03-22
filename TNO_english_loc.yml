@@ -1,7 +1,7 @@
 ﻿l_english:
-
-: ""
 # https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/vietnam-conference-washington-dc-19560601
+# https://teachingamericanhistory.org/document/great-society-speech/
+
 
 #INDEX#
 #nix_
@@ -112,21 +112,21 @@ jfk_south_african_war: "After full consultation with the National Security Counc
 
 jfk_lobby_for_war_effort: "Lobby For The War Effort"
 
-jfk_lobby_for_war_effort_event: ""
+jfk_lobby_for_war_effort_event: "...It is the arena where German expansionism is most aggressively at work in the world today—where it is crossing international frontiers in violation of international agreements; where it is killing and kidnaping; where it is ruthlessly attempting to bend free people to its will..."
 
 jfk_visit_troops: "Visit The Troops"
 
-jfk_visit_troops_event: ""
+jfk_visit_troops_event: "Soldiers... The forgotten men and women of the United States armed forces, GI's; General Enlisted soldiers are the backbone of any great nation on this planet, you will lead the offensive against the black tide of Nazism back into its roots back to the void of which it had escaped from and has concealed itself."
 
 jfk_propose_full_escalation: "Propose Full Escalation"
 
-jfk_propose_full_escalation_event: ""
+jfk_propose_full_escalation_event: "Strategically, South Africa's capitulation would close the shutters on all who dream of freedom from the German regimes in the region. The remaining free nations on the continent would be left stranded and surrounded on all sides by a tide of tyranny and destruction. More than half a billion people will be trapped behind a tidal wave of destruction and it would set in stone the dissolvement of democracy in the free world."
 
 jfk_interview_with_reporter: "Accept An Interview With Reporter"
 
-jfk_interview_with_reporter_event: ""
+jfk_interview_with_reporter_event: "But the responsibility of the United States for Africa does not conclude, obviously, with a review of what has been accomplished thus far with our help. Much more needs to be done; much more, in fact, than we have been doing up to now. Military alliances in all of Africa are necessary but not enough. Atomic superiority and the development of new ultimate weapons are not enough. Informational and propaganda activities, warning of the evils of Nazism and the blessings of the American way of life, are not enough in a country where concepts of free enterprise and capitalism are meaningless, where poverty and hunger are not enemies across the border but enemies within their midst. As Ambassador Chuong has recently said: 'People cannot be expected to fight for the Free World unless they have their own freedom to defend, their freedom from foreign domination as well as freedom from misery, oppression, corruption.'"
 
-#IGNORE WAR#
+#JFK IGNORE WAR#
 
 jfk_saf_ignore_war: "Ignore The War"
 
@@ -136,23 +136,90 @@ jfk_saf_speech: "American Friends Of South Africa"
 
 jfk_saf_speech_event: "It is a genuine pleasure to be here today at this vital Conference on the future of South Africa, and America's stake in that new nation, sponsored by the American Friends of South Africa, an organization of which I am proud to be a member. Your meeting today at a time when political events concerning South Africa are approaching a climax, both in that country and in our own Congress, is most timely. Your topic and deliberations, which emphasize the promise of the future more than the failures of the past, are most constructive. I can assure you that the Congress of the United States will give considerable weight to your findings and recommendations; and I extend to all of you who have made the effort to participate in this Conference my congratulations and best wishes."
 
-#IGNORE WAR#
+#JFK BECOME PRESIDENT#
 
 jfk_nixon_impeachment: "Nixon Resigns From Presidency"
 
 jfk_nixon_impeachment_event: "As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."
 
+jfk_supported_impeachment: "Welcome To The Stage- President John F Kennedy!"
+
+jfk_supported_impeachment_event: "...we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and success of liberty..."
+
+jfk_supported_president: "People, Please Welcome To The Stage President John F Kennedy"
+
+jfk_supported_president_event: "...we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and success of liberty..."
+
+#JFK BOTH PATHS TO DEATH :<#
+
+jfk_deescalate_malaysian_war: "De-Escalate Malaysian Conflict"
+
+jfk_deescalate_malaysian_war_event: "...So let us begin anew--remembering on both sides that civility is not a sign of weakness, and sincerity is always subject to proof. Let us never negotiate out of fear. But let us never fear to negotiate..."
+
+jfk_visit_singapore: "Negotiate Truce Between Two Sides"
+
+jfk_visit_singapore_event: "*Static Hisses On the TV* Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is in the air with Airforce One getting medical treatment heading back to Guam from Signapore trying to broker a peace agreement... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe...*TV set hisses*"
+
+jfk_escalate_malaysian_war: "De-Escalate Malaysian Conflict"
+
+jfk_escalate_malaysian_war_event: "In the settlement that has now been agreed to, all the conditions that I laid down then have been met. A cease-fire, internationally supervised, will begin at 7 p.m., this Saturday, January 27, Washington time. Within 60 days from this Saturday, all Americans held prisoners of war throughout Nazi Occupied Africa will be released. There will be the fullest possible accounting for all of those who are missing in action...."
+
+jfk_visit_rebels: "Pay The Rebels A Visit"
+
+jfk_visit_rebels_event: "*Static Hisses On the TV* Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been found deceased from visiting some freedom fighters trying to broker a peace agreement after a bombing raid... The country has yet to be identified but is suspected to be of Imperial Japanese Origin... We will keep you updated when a new development breaks through, stay safe...*TV set hisses*"
+
 #LBJ#
 
 lbj_intro: "Born in a farmhouse in Stonewall, Texas, to a local political family, Johnson worked as a high school teacher and a congressional aide before winning election to the U.S. House of Representatives in 1937. He won election to the United States Senate in 1948 after narrowly winning the Democratic Party's nomination. He was appointed to the position of Senate Majority Whip in 1951. He became the Senate Democratic leader in 1953 and majority leader in 1954. In 1960 Johnson ran for the Democratic nomination for president. During the convention he came into conflict with the Democratic front-runner, fellow senator John F. Kennedy. The two men compromised and the Kennedy-Johnson ticket won in the 1960 presidential election."
 
-lbj_event: "Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter."
+lbj_papers_stolen: "RD-Papers Leak Out"
 
+lbj_papers_stolen_event: "Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter."
 
+lbj_discredit_pres: "Discredit President"
 
+lbj_discredit_pres_event: "The president, has commited crimes that are not only immoral but go against the very freedoms and ideals we have here in these United States, not only go against those but go against our founding fathers's wishes of a free and fair election system."
 
+lbj_support_pres: "Support The President"
 
+lbj_support_pres_event: "A president in which is critized is one who is ineffective, when the public stabs and bleeds the president, the country loses a national platform that congress cannot replace nor try to create in these United States."
+
+lbj_candidacy: "Its Time We Got Off Our Seats"
+
+lbj_candidacy_event: "For my part, I pledge a progressive administration which is efficient, and honest and frugal. This prosperous people, this land of reasonable men, has no place for petty partisanship or peevish prejudice. The needs of all can never be met by parties of the few. The needs of all cannot be met by a business party or a labor party, not by a war party or a peace party, not by a southern party or a northern party."
+
+lbj_support_impeachment: "Support Impeaching Nixon"
+
+lbj_support_impeachment_event: "President Nixon, while not having been the best moral character nor a president that is for everyone, for the people has forgotten that while in the most important office in the world he is not immune to the law and he must be made aware of this fact. Through this we will send him a message he wont forget anytime soon."
+
+lbj_dont_support_impeachment: "Refuse Impeaching Nixon"
+
+lbj_dont_support_impeachment_event: "President Nixon, he's saved us from a full-on global nuclear conflict with the Empire Of Japan and has staved off Fascism from the Americas successfully preventing a takeover. He has always had the county's best interests in mind regardless what the media has gone out on a full on blitz against him and his administration."
 
 lbj_south_african_war: "Intervention in South Africa"
 
 lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *JFK Turns off the TV* Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
+
+lbj_criticize_intervention: "Give A Speech In Congress To Shift Towards Anti-War Opinions"
+
+lbj_criticize_intervention_event: "A war, what is a war good for in these trying times, why spend billions of dollars in fruitless endevors across the oceans in conflicts that are strictly European and only for Europeans. Why spend money and send your sons to die for some territory that has little value when we have millions in these Untied States that wish to eat more than once a day, why do we choose to impoverish more people rather than reduce poverty ?"
+
+lbj_support_intervention: "Give A Speech In Congress To Shift Towards Pro-War Opinions"
+
+lbj_support_intervention_event: "Armed raider teams in very large numbers have been sent into South Africa to engage in sabotage and assassination. On January 19th, a 31-man team of German raiders invaded Cape Town with the object of murdering the President of the Dominion Of South Africa. In many of these aggressive actions, Korean and American soldiers have been killed and wounded. The Germans and their African subjects are apparently attempting to intimidate the South Africans and are trying to interrupt the growing spirit of confidence and progress in South Africa..."
+
+lbj_visit_the_troops: "Visit Deployed Soldiers In South Africa"
+
+lbj_visit_the_troops_event: "..The enemy has met their match here with us here, there will be no retreat, there will be no losses, there will be no defeat on our side with the enemy advancing and threathening our very way of life in the United States. You are now engaged in a vital mission for humanity's and democracy's survival across the globe, the fate of the world lays on your shoulders and the hundreds of future generations of your children and wives."
+
+lbj_interview: "Go To An Interview With A Reporter"
+
+lbj_interview_event: "*The reporter clears their throat* So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"
+
+lbj_they_will_be_evacuated: "They will both be evacuated with the Navy keeping them secure"
+
+lbj_they_will_be_evacuated_event: ""
+
+lbj_they_will_be_protected: "They will all be protected and they will be kept secure"
+
+lbj_they_will_be_protected_event: ""

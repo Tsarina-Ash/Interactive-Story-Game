@@ -65,8 +65,8 @@
 
 .smalllogofooter {
   width: auto;
-  height: 50px;  
-  position: fixed;
+  height: 43px;  
+  position:static;
   right: 0;
   top: 0;  
 }
@@ -268,16 +268,15 @@
 }
 
 #dynamic-image {
-  padding: 12vh 0;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 50vh;
+  max-width: 100%;
+
   font-size: 10em; 
   color: white;
   margin-top:20px;
-  background-color: #333;
+  border: 10px solid #333;
 }
 
 #beeg {
@@ -336,16 +335,11 @@
 }
 /*HORROR SPECIAL CUSTOMIZATION*/
 
-/*GAME SPECIAL CUSTOMIZATION*/
-.GAMEfilledtextbox {
-  padding: 12vh 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 50vh;
-  font-size: 10em; 
-  color: white;
-  margin-top:20px;
-  background-color: #333;
+.PASThome{
+  background-image: url("images/SYSTEM/wallpaper.jpg");
+  margin: 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
+
+/*GAME SPECIAL CUSTOMIZATION*/

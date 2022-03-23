@@ -55,6 +55,7 @@
     font-size: 5em; 
     color: white;
     background-color: #333;
+    opacity: 100%;
   }
   
   .textboximage { 
@@ -305,8 +306,24 @@
     height: 50vh;
     font-size: 10em; 
     color: white;
-    margin-top:20px;
+    margin-top: 431px; /* theres probably a better way of doing this */
     background-color: rgb(39, 39, 39);
-    opacity: 75%;
+    opacity: 75%;  /* need to find a way for this not to effect the actual text*/
 }
   
+#startButton {
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 17vh;
+  }
+  
+  #startButton:hover{
+    transform: scale(0.9);
+  }

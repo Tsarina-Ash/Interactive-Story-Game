@@ -343,3 +343,26 @@
 }
 
 /*GAME SPECIAL CUSTOMIZATION*/
+
+
+/*oh god why*/
+.FORBIDDENbody {
+  display: grid;
+  background: url("images/TNO/jfk.png");
+  height: 100%;
+  margin: 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.forbidtextbox {
+  padding: 6vh 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 35vh;
+  color: white;
+  margin-top:20px;
+  background-color: #333;
+}

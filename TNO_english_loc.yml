@@ -39,13 +39,13 @@ nixon_blame_communists_event: "...With the logistical support of Hitler's German
 
 nix_blame_communists: "Blame the communists" #ENDS GAME
 
-nix_cooperate_event: "*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?"
+nix_cooperate_event: "Sigh Mister Kennedy ? What will your party take to end this parade and celebration against me ?"
 
 nix_cooperate: "Co-operate and make concessions"
 
 nix_south_african_war: "They Use Artillery, We Use Napalm, They Use Gas, We Use Nukes. Who Do You Think Will Fall First ?"
 
-nix_south_african_war_event: "After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust."" *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."
+nix_south_african_war_event: "After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust."" Turns off the TV and picks up the phone "Justine ? give me a phone line to the CIA director now."
 
 nix_full_military_escalation: "Full Military Escalation"
 
@@ -108,7 +108,7 @@ jfk_dont_support_impeachment_event: "President Nixon, he's saved us from a full-
 
 jfk_south_african_war: "Intervention in South Africa"
 
-jfk_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *Turns off the TV* Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
+jfk_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. Turns off the TV Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
 
 jfk_lobby_for_war_effort: "Lobby For The War Effort"
 
@@ -158,7 +158,7 @@ jfk_deescalate_malaysian_war_event: "...So let us begin anew--remembering on bot
 
 jfk_visit_singapore: "Negotiate Truce Between Two Sides"
 
-jfk_visit_singapore_event: "*Static Hisses On the TV* Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is in the air with Airforce One getting medical treatment heading back to Guam from Signapore trying to broker a peace agreement... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe...*TV set hisses*"
+jfk_visit_singapore_event: "Static Hisses On the TV Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is in the air with Airforce One getting medical treatment heading back to Guam from Signapore trying to broker a peace agreement... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe...TV set hisses"
 
 jfk_escalate_malaysian_war: "De-Escalate Malaysian Conflict"
 
@@ -166,7 +166,7 @@ jfk_escalate_malaysian_war_event: "In the settlement that has now been agreed to
 
 jfk_visit_rebels: "Pay The Rebels A Visit"
 
-jfk_visit_rebels_event: "*Static Hisses On the TV* Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been found deceased from visiting some freedom fighters trying to broker a peace agreement after a bombing raid... The country has yet to be identified but is suspected to be of Imperial Japanese Origin... We will keep you updated when a new development breaks through, stay safe...*TV set hisses*"
+jfk_visit_rebels_event: "Static Hisses On the TV Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been found deceased from visiting some freedom fighters trying to broker a peace agreement after a bombing raid... The country has yet to be identified but is suspected to be of Imperial Japanese Origin... We will keep you updated when a new development breaks through, stay safe...TV set hisses"
 
 #LBJ#
 
@@ -198,7 +198,7 @@ lbj_dont_support_impeachment_event: "President Nixon, he's saved us from a full-
 
 lbj_south_african_war: "Intervention in South Africa"
 
-lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. *JFK Turns off the TV* Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
+lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. JFK Turns off the TV Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
 
 lbj_criticize_intervention: "Give A Speech In Congress To Shift Towards Anti-War Opinions"
 
@@ -214,7 +214,7 @@ lbj_visit_the_troops_event: "..The enemy has met their match here with us here, 
 
 lbj_interview: "Go To An Interview With A Reporter"
 
-lbj_interview_event: "*The reporter clears their throat* So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"
+lbj_interview_event: "The reporter clears their throat So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"
 
 lbj_they_will_be_evacuated: "They will both be evacuated with the Navy keeping them secure"
 
@@ -234,17 +234,76 @@ lbj_begin_campaign_event: "...We are members together of such a party, the Repub
 
 lbj_campaining_for_vp: "Campaign Across With President"
 
-lbj_campaining_for_vp_event: "*Someone Knocks On The Door* 'We've arrived in Dallas now Vice President, should I tell the president yet ?' 'Go, i'll be out soon, ill tell him myself' *You walk down a tight hallway* 'John, we're here'"
+lbj_campaining_for_vp_event: "Someone Knocks On The Door 'We've arrived in Dallas now Vice President, should I tell the president yet ?' 'Go, i'll be out soon, ill tell him myself' You walk down a tight hallway 'John, we're here'"
 
 lbj_visit_nasa: "Visit The NASA HQ On Presidential Tour"
 
-lbj_visit_nasa_event: "'Hey driver turn off the radio, or i'll have you get into another car-' You get loudly interrupted as the escort motorcycles stop your car and tell you to quickly get back on the plane as your security detail fights until you all hear a massive amount of sirens go off heading towards the city center, 'Lyndon- We have to get to the airport now, something's happening and its not good' *You quickly run over to the airport as you get put onto airforce one and into the air*"
+lbj_visit_nasa_event: "'Hey driver turn off the radio, or i'll have you get into another car-' You get loudly interrupted as the escort motorcycles stop your car and tell you to quickly get back on the plane as your security detail fights until you all hear a massive amount of sirens go off heading towards the city center, 'Lyndon- We have to get to the airport now, something's happening and its not good' You quickly run over to the airport as you get put onto Airforce One and into the air"
 
 lbj_whats_happening: "What In- Whats Going On Here ?"
 
-lbj_whats_happening_event: "*Someone turns on a radio* *Static Hisses* Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is being escorted to the Dallas hosptial getting medical treatment... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe...*Radio hisses and goes back to music as someone turns the radio off*"
+lbj_whats_happening_event: "Someone turns on a radio Static Hisses Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is being escorted to the Dallas hosptial getting medical treatment... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe...Radio hisses and goes back to music as someone turns the radio off"
 
-lbj_the_malay_situation: "A Defense Minister, A CIA Director, A WW2 Veteran and a Japanese Soldier Walk Into a Bar"
+lbj_the_fillipino_situation: "A Defense Minister, A CIA Director, A WW2 Veteran and a Japanese Soldier Walk Into a Bar"
 
-lbj_the_malay_situation_event: "'Lyndon, Mister President ? The CIA director is here to see you', 'Great, let him in', the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. 'What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-' You get rudely interrupted as the director shushes you and you slam your fists on table and sit down 'Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see *he briefly points towards the worn down soldier* you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts.'"
+lbj_the_fillipino_situation_event: "'Lyndon, Mister President ? The CIA director is here to see you', 'Great, let him in', the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. 'What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-' You get rudely interrupted as the director shushes you and you slam your fists on table and sit down 'Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see he briefly points towards the worn down soldier you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts.'"
 
+lbj_public_lend_lease: "'Alright, ill sign some shipments of equipment your way'"
+
+lbj_public_lend_lease_event: "We applaud this evidence of determination on the part of the South Africans, Fillipinos, our long lost soldiers, and Malaysians. Our first priority will be to support their effort. We shall accelerate the re-equipment of these nations's armed forces in order to meet the enemy's increased aggresiveness. And this will enable them progressively to undertake a larger share of offensive combat operations against the enemy invaders. On many occasions I have told the American people that we would send to them, those forces that are required to accomplish our mission there. So with that as our guide we have previously authorized a force level of approximately 725,000. Some weeks ago to help meet the enemy's new offensive we sent to South Africa about 37,000 additional Marines and airborne troops. They were deployed by air in 48 hours on an emergency basis. But the artillery and the tank and the aircraft and medical and other units that were needed to work with and support these infantry troops in combat could not then accompany them by air on that short notice. So I ask the congress and the American people of these United States to assist me in passing a bill to send a massive amount of our rotting stockpile to our forgotten soldiers in the Phillipines, your sons numbering in the hundreds of thousands all stranded on the Phillipines. MacArthur promised to his soldiers and the civilians that he would be back but he not only spoke for himself but spoke for Uncle Sam coming to save them in anyway possible. Malaysia used to be our best location for our former ally's navy and can be taken out of Japanese hand with the support of the common-folk. The South African war has had excelent results especialy in recent months with now more than 710,000 American combat personal now staged there."
+
+lbj_use_operatives: "'Use All Our Available Agents In South-East Asia To Assist Them'"
+
+lbj_use_operatives_event: "'Use all our available agents in South-East Asia to assist them in anyway possible, I don't want a trace of American involvment in this, tell me anything you need and I'll get it to you, simply tell me what you need and what you want and when.'"
+
+lbj_the_malay_situation: "The Asian Giblraltar Situation"
+
+lbj_the_malay_situation_event: "'Malaysian rebels having fought off the Japanese since the beginning of their occupation have risen up enmasse and are mounting a strong resistance. The Gibraltar of Asia has now appeared to dislike having Japanese overlords, now its up to what the world will do if they do anything at all, fight for freedom and liberty or simple leave the masses to die yearning for freedom huddled as bombs fall on them.'"
+
+lbj_use_all_tools: "'Let's Open Our Toolbox Shall We ?'"
+
+lbj_use_all_tools: "'Lets open our toolbox and use all our tools available here, shall we ?' You slowly pick up the phone and ask your secretary to phone multiple generals, the defense minister of South Africa alongsides multiple rebel leaders from Malaysia and the Fillipino rebel representative. for a meeting tommorow."
+
+lbj_whatre_our_options: "'Now Then What're Our Options Here Against The Menace ?'"
+
+lbj_whatre_our_options_event: "'Now then what're our options here against the menace-' You get rudely interrupted as you pick up the phone 'Sir, Madagascar's Obergruppenfuhrer is here to talk to you alongsides Albert Speer.'"
+
+lbj_let_them_in: "Let Them In"
+
+lbj_let_them_in: "Let them im quickly and get the FBI director here now, something big is happening now, its go time."
+
+lbj_tell_them_to_wait: "Tell Them To Wait 20 Minutes"
+
+lbj_tell_them_to_wait_event: "Tell them to wait 20 minutes im in a quick meeting."
+
+lbj_they_cant_wait: "'Sir They Cant Wait'"
+
+lbj_they_cant_wait_event: "'Sir they say they can't wait for that long, they have to leave soon. It Seems pretty urgent.'"
+
+lbj_alright_let_them_in: "Alright Let Them In"
+
+lbj_alright_let_them_in: "Alright let them im quickly and get the FBI director here now, something big is happening now, its go time."
+
+lbj_lobby_for_support: "Lobbying And Requests For Asia"
+
+lbj_lobby_for_support_event: ""
+
+lbj_great_society: "Begin Great Society Programs"
+
+lbj_great_society_event: ""
+
+lbj_mlk_civil_rights_act: "Bible Belt Burning Itself"
+
+lbj_mlk_civil_rights_act_event: ""
+
+lbj_education_reform: "The Question Of Education"
+
+lbj_education_reform_event: ""
+
+lbj_safety_nets: "The Fear Within The SSA"
+
+lbj_safety_nets_event: ""
+
+lbj_final_words: "Good evening, my fellow Americans"
+
+lbj_final_words_event: "...But let men everywhere know, however, that a strong, a confident, and a vigilant America stands ready tonight to defend an honored cause--whatever the price, whatever the burden, whatever the sacrifice that duty may require. Thank you for listening. Good night and God bless all of you."

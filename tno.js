@@ -21,12 +21,12 @@ updateImage(story[part].imgElem);}
 
     nix_intro: {
       text: `Nixon was born into a poor family of Quakers in a small town in Southern California. He graduated from Duke Law School in 1937, practiced law in California, then moved with his wife Pat to Washington in 1942 to work for the federal government. After active duty in the Naval Reserve during World War II, he was elected to the House of Representatives in 1946. His work on the Alger Hiss Case established his reputation as a leading anti-Communist, which elevated him to national prominence, and in 1950, he was elected to the Senate. Nixon was the running mate of Dwight D. Eisenhower, the Republican Party's presidential nominee in the 1952 election, and served for eight years as the vice president.`,
-      options: [["nix_watergate_event", "RD-Papers Leak Out"]],
+      options: [["nix_watergate_event", "Papers Stolen from Republican-Democrat Headquaters"]],
       imgElem: "images/TNO/jfk.png"
     },
     
     nix_watergate_event: {
-      text: `Papers Stolen from Republican-Democrat headquaters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political oppenents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible warcrimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter.`,
+      text: `Papers Stolen from Republican-Democrat headquarters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political opponents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible war crimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter.`,
       options: [["nix_resign", "Resign From Presidency"], ["nix_fight", "Fight The Rumors"]],
       imgElem: "images/TNO/Baw/watergate.jpg"
     },
@@ -37,7 +37,7 @@ updateImage(story[part].imgElem);}
     },
 
     nix_fight: {
-      text: `"...In recent months, members of my Administration and officials of the Committee for the Re-Election of the President including some of my closest friends and most trusted aides—have been charged with involvement in what has come to he known as the Watergate affair. These include charges of illegal activity during and preceding the 1960 Presidential election and charges that responsible officials participated in efforts to cover up that illegal activity..."`,
+      text: `"...In recent months, members of my Administration and officials of the Committee for the Re-Election of the President including some of my closest friends and most trusted aides—have been charged with involvement in what has come to be known as the Watergate affair. These include charges of illegal activity during and preceding the 1960 Presidential election and charges that responsible officials participated in efforts to cover up that illegal activity..."`,
       options: [["nix_blame_communists", "Blame The Germans"], ["nix_cooperate", "Co-operate With Democrats"]],
      imgElem: "images/TNO/BaW/nixonspeech.jpg"
     },
@@ -48,13 +48,13 @@ updateImage(story[part].imgElem);}
     },
 
     nix_cooperate: {
-      text: `*Sigh* Mister Kennedy ? What will your party take to end this parade and celebration against me ?`,
+      text: `Letting Out A Deep Sigh, "Mister Kennedy ? What will your party take to end this parade and celebration against me ?"`,
       options: [["nix_south_african_war", "The African Adventure"]],
      imgElem: "images/TNO/Baw/nixonjfkcompromise.jpg"
     },
 
     nix_south_african_war: {
-      text: `"After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust." *Turns off the TV and picks up the phone* "Justine ? give me a phone line to the CIA director now."`,
+      text: `"After full consultation with the National Security Council, Ambassador Bunker, General Westmoreland, and my other advisors, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust." You turn off the TV and pick up the phone "Justine ? give me a phone line to the CIA director now."`,
       options: [["nix_full_military_escalation", "Begin A Light Intervention"]],
      imgElem: "images/TNO/Baw/nixonstaffarmy.jpg"
     },
@@ -107,7 +107,7 @@ updateImage(story[part].imgElem);}
     },
 
     nix_watergate_resurfaced_impeached: {
-      text: `"As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
+      text: `"As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hands of the Vice President, John F. Kennedy, being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
       imgElem: "images/TNO/BaW/nixon.jpg"
     },
 
@@ -126,7 +126,7 @@ updateImage(story[part].imgElem);}
     },
 
     jfk_discredit_pres: {
-      text: `"I'm not satisfied, when we have over $9 billion dollars worth of food, some of it rotting even though there is a hungry world and even though 4 million Americans wait every month for a food package from the Government, which averages 5 cents a day per individual. Meanwhile The president, rather than spend tax dollars fixing this spends it on needless meddling in politics with tax payer money."`,
+      text: `"I'm not satisfied, when we have over $9 billion dollars worth of food, some of it rotting even though there is a hungry world and even though 4 million Americans wait every month for a food package from the Government, which averages 5 cents a day per individual. Meanwhile The president, rather than spend tax dollars fixing this spends it on needless meddling in politics with taxpayer money."`,
       options: [["jfk_candidacy", "I think it's time America started moving again"]],
       imgElem: "images/TNO/Baw/jfkcritnix.jpg"
     },
@@ -146,13 +146,13 @@ updateImage(story[part].imgElem);}
     jfk_support_impeachment: {
       text: `"President Nixon, while not having been the best moral character nor a president that is for everyone, for the people has forgotten that while in the most important office in the world he is not immune to the law and he must be made aware of this fact. Through this we will send him a message he wont forget anytime soon."`,
       options: [["jfk_lobby_for_war_effort", "Begin Lobbying For The War Effort"], ["jfk_saf_ignore_war", "Crtiticize Military Intervention In South Africa"]],
-      imgElem: "images/TNO/Baw/watergate.jpg"
+      imgElem: "images/TNO/Baw/jfkcongress.jpg"
     },
 
     jfk_dont_support_impeachment: {
       text: `"President Nixon, while not having been the best moral character nor a president that is for everyone, for the people has forgotten that while in the most important office in the world he is not immune to the law and he must be made aware of this fact. Through this we will send him a message he wont forget anytime soon."`,
       options: [["jfk_lobby_for_war_effort", "Begin Lobbying For The War Effort"], ["jfk_saf_ignore_war", "Crtiticize Military Intervention In South Africa"]],
-      imgElem: "images/TNO/Baw/watergate.jpg"
+      imgElem: "images/TNO/Baw/jfkcongress.jpg"
     },
 
 //jfk hist
@@ -198,7 +198,7 @@ updateImage(story[part].imgElem);}
     },
 
     pacifist_jfk_nixon_impeachment: {
-      text: `"As of noon today, President Richard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
+      text: `"As of noon today, President Richard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy, being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
       options: [["pacifist_jfk_supported_impeachment", "'Welcome To The Stage- President John F Kennedy!'"]],
      imgElem: "images/TNO/Baw/nixonresign.jpg"
     },
@@ -210,7 +210,7 @@ updateImage(story[part].imgElem);}
     },
     
     jfk_dallas: {
-      text: `Static Hisses On the TV "Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot in Dallas w... The country has yet to be identified but is suspected to be of Imperial Japanese Origin... We will keep you updated when a new development breaks through, stay safe" TV set hisses`,
+      text: `Static Hisses On the TV "Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot in Dallas... The country has yet to be identified... We will keep you updated when a new development breaks through, stay safe" TV set hisses`,
      imgElem: "images/TNO/Baw/jfkdeath.jpg"
     },
         
@@ -252,11 +252,51 @@ jfk_visit_rebels: {
 
     lbj_intro:{
       text: `Born in a farmhouse in Stonewall, Texas, to a local political family, Johnson worked as a high school teacher and a congressional aide before winning election to the U.S. House of Representatives in 1937. He won election to the United States Senate in 1948 after narrowly winning the Democratic Party's nomination.[2] He was appointed to the position of Senate Majority Whip in 1951. He became the Senate Democratic leader in 1953 and majority leader in 1954. In 1960 Johnson ran for the Democratic nomination for president. During the convention he came into conflict with the Democratic front-runner, fellow senator John F. Kennedy. The two men compromised and the Kennedy-Johnson ticket won in the 1960 presidential election.`,
-      options: [["jfk_watergate_event", "Papers Stolen from Republican-Democrat Headquaters"]],
-     imgElem: "images/TNO/lbj.png"
+      options: [["lbj_papers_stolen", "Papers Stolen from Republican-Democrat Headquaters"]],
+      imgElem: "images/TNO/lbj.png"
     },
     
+    lbj_papers_stolen:{
+      text: `Papers Stolen from Republican-Democrat headquarters in Washington DC confirming the President Of The United States has asked his staff and fellow government agencies to assist him in spying on his political opponents and possibly incriminating/damning evidence against the Nixon presidency linking it to possible war crimes and obstruction of justice in the United States. A speech by the president will be made soon regarding this matter.`,
+      options: [["lbj_discredit_pres", "Discredit President Nixon"], ["lbj_support_pres", "Support President Nixon"]],
+      imgElem: "images/TNO/Baw/watergate.jpg"
+    },
 
+    lbj_discredit_pres:{
+      text: `"The president, he who has committed crimes that are not only immoral but go against the very freedoms and ideals we have here in these United States, not only go against those but go against our founding fathers' wishes of a free and fair election system."`,
+      options: [["lbj_candidacy", "It's Time We Got Off Our Seats"]],
+     imgElem: "images/TNO/Baw/lbjspeech.jpg"
+    },
+
+    lbj_support_pres:{
+      text: `"An ineffective president will occur when an indecisive nation divides the base of these Americas. When the public deceives the president, the country loses a national platform that congress cannot replace nor try to create in these United States."`,
+      options: [["lbj_candidacy", "It's Time We Got Off Our Seats"]],
+     imgElem: "images/TNO/BaW/lbjspeech2.jpg"
+    },
+    
+    lbj_candidacy:{
+      text: `"For my part, I pledge a progressive administration which is efficient, honest and frugal. This prosperous people, this land of reasonable men, has no place for petty partisanship or peevish prejudice. The needs of all can never be met by parties of the few. The needs of all cannot be met by a business party or a labor party, not by a war party or a peace party, not by a southern party or a northern party."`,
+      options: [["lbj_support_impeachment", "Pledge Support Towards Impeaching Nixon"], ["lbj_dont_support_impeachment", "Criticize Those Impeaching Nixon"]],
+     imgElem: "images/TNO/BaW/lbjcandidacy.jpg"
+    },
+
+    lbj_support_impeachment:{
+      text: `"President Nixon, has not been the best moral character nor a president that is for everyone, for the people has forgotten that while in the most important office in the world he is not immune to the law and he must be made aware of this fact. Through this we will send him a message he wont forget anytime soon."`,
+      options: [["lbj_papers_stolen", "It's Time We Got Off Our Seats"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+
+    lbj_dont_support_impeachment:{
+      text: `"President Nixon, he's saved us from a full-on global nuclear conflict with the Empire Of Japan and has staved off Fascism from the Americas successfully preventing a takeover. He has always had the county's best interests in mind regardless of what the media has gone out on a full on blitz against him and his administration."`,
+      options: [["lbj_papers_stolen", "It's Time We Got Off Our Seats"]],
+     imgElem: "images/TNO/BaW/lbjnixonhappy.jpg"
+    },
+
+
+
+
+
+    
     };
     //code
 

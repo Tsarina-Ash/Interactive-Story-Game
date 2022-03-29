@@ -1,8 +1,8 @@
-window.onload = function(){//encases all code, makes sure all JS is loaded before any code can run
+window.onload = function(){
 
-    var story = {//story object
+    var story = {
     
-    opener: {//properties in object, containing text and options
+    opener: {
       text: "oh my god this finally works im so happy jesus christ", 
       options: [["FordF150", "Ford F150"], ["leave", "Leave the Game"], ["home", "Call it Quits"], ["helpWoman", "Help the Old Lady"]]
     },
@@ -24,53 +24,53 @@ window.onload = function(){//encases all code, makes sure all JS is loaded befor
 
     };
     
-    var playerChoices = ["opener"];//array containing variables
+    var playerChoices = ["opener"];
     
     
-    var x = document.getElementById("beeg");//start button 
-    var restart = document.getElementById("restart");//restart button
-    var playArea = document.getElementById("playArea");//refers to play area
-    var buttonArea = document.getElementById("buttonArea");//refers to button area
+    var x = document.getElementById("beeg");
+    var restart = document.getElementById("restart");
+    var playArea = document.getElementById("playArea");
+    var buttonArea = document.getElementById("buttonArea");
     
     function createButton(btnText, choice) {
-      var button = document.createElement("button"); //creates button
-      button.innerHTML = btnText;//changes button text according to "options" in array
-      buttonArea.appendChild(button);//adds button that has changed name
+      var button = document.createElement("button"); 
+      button.innerHTML = btnText;
+      buttonArea.appendChild(button);
     
-      button.addEventListener("click", function(){//when button that is generated is clicked, add choice to playerChoices and run createStory
+      button.addEventListener("click", function(){
         playerChoices.push(choice);
         createStory();
-        window.scrollTo({ top: 0, behavior: 'smooth' });//shamelessly stolen from stackOverflow, scrolls to top smoothly on button press
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
     
-    function addStory(text){//changes playArea text to choice
+    function addStory(text){
       playArea.innerHTML = text;
     }
     
     function createStory(text){
       let pageNow = playerChoices[playerChoices.length - 1];
-      playArea.innerHTML = "";//empties play area
-      buttonArea.innerHTML = "";//empties button area
-      for(let idea of playerChoices){//creates variable idea and uses with array playerChoices
-        addStory(story[idea].text)//based on button clicked, run addStory with text
+      playArea.innerHTML = "";
+      buttonArea.innerHTML = "";
+      for(let idea of playerChoices){
+        addStory(story[idea].text)
       }
-      for (let idea of story[pageNow].options){//creates variable idea and used with story.options
-        createButton(idea[1],idea[0]);//creates buttons using options text
+      for (let idea of story[pageNow].options){
+        createButton(idea[1],idea[0]);
       }
     
     }
     
     restart.addEventListener("click", function(){
-      location.reload();//reloads page on click, resetting game
+      location.reload();
     });
     
-    restart.style.display = 'none';//hides restart button
+    restart.style.display = 'none';
     
-    x.addEventListener("click", function(){//on start button click
-      createStory(story.opener.text);//run createStory
-      restart.style.display = '';//unhide restart button
+    x.addEventListener("click", function(){
+      createStory(story.opener.text);
+      restart.style.display = '';
     });
     
-    }//end of window.onload, do NOT put any JS after this
+    }
     

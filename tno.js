@@ -1,4 +1,4 @@
-window.onload = function(){//encases all code, makes sure all JS is loaded before any code can run
+window.onload = function(){
 
   let element = document.getElementById("dynamic-image"),
   imgElem = document.getElementById("dynamic-image");
@@ -10,8 +10,8 @@ function updateImage(source){
 function republicDominican(){ 
 updateImage(story[part].imgElem);}
 
-    var story = {//story object
-    opener: {//properties in object, containing text and options
+    var story = {
+    opener: {
       text: "1962 Nazi Germany has most of Europe under its control, Japan has its respective empire in Asia controlling a portion of the continent and some ex-American territories such as the Philippines, Hawaii, a port in LA and a port in San Francisco. Italy has created its Mediterranean dream with an alliance between Turkey, the Iberian Union and it’s holdings across the Mediterranean. Russia has been shattered in dozens if not hundreds of warlords with many prominent ones remaining and biding for control of their respective territories. With the three ex-allies (Japan, Germany and Italy) being powerhouses they seem to be on top of the world however there are cracks being formed everywhere. Germany’s economic failures of the 50’s and its aging fuher have led to many of his previous loyal commanders fighting over the role of fuhrer while he’s still alive. Germany’s colonies and the SS have been difficult for the federal government to control due to their huge size and the aging administration. Due to this the United States has set up its own alliance of countries still free from Japan and Germany, the Organization of Free Nations (OFN for short).", 
       options: [["nix_intro", "Play As Nixon"], ["jfk_intro", "Play as JFK"], ["lbj_intro", "Play as LBJ"]],
       imgElem: "images/TNO/TNOmap.jpg"
@@ -298,58 +298,56 @@ jfk_visit_rebels: {
 
     
     };
-    //code
-
-    var playerChoices = ["opener"];//array containing variables
   
 
-    var x = document.getElementById("beeg");//start button 
-    var restart = document.getElementById("restart");//restart button
-    var playArea = document.getElementById("playArea");//refers to play area
-    var buttonArea = document.getElementById("buttonArea");//refers to button area
+    var playerChoices = ["opener"];
+  
+
+    var x = document.getElementById("beeg");
+    var restart = document.getElementById("restart");
+    var playArea = document.getElementById("playArea");
+    var buttonArea = document.getElementById("buttonArea");
     var topmidimage = document.getElementById("dynamic-im");
 
     function createButton(btnText, choice) {
-      var button = document.createElement("button"); //creates button
-      button.innerHTML = btnText;//changes button text according to "options" in array
-      buttonArea.appendChild(button);//adds button that has changed name
-      button.addEventListener("click", function(){//when button that is generated is clicked, add choice to playerChoices and run createStory
+      var button = document.createElement("button");
+      button.innerHTML = btnText;
+      buttonArea.appendChild(button);
+      button.addEventListener("click", function(){
         playerChoices.push(choice);
         createStory();
-        window.scrollTo({ top: 0, behavior: 'smooth' });//shamelessly stolen from stackOverflow, scrolls to top smoothly on button press
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
     
-    function addStory(text){//changes playArea text to choice
+    function addStory(text){
       playArea.innerHTML = text;
   
     }
 
     function createStory(text){
       let pageNow = playerChoices[playerChoices.length - 1];
-      playArea.innerHTML = "";//empties play area
-      buttonArea.innerHTML = "";//empties button area
+      playArea.innerHTML = "";
+      buttonArea.innerHTML = "";
       updateImage(story[pageNow].imgElem);
-      for(let idea of playerChoices){//creates variable idea and uses with array playerChoices
-        addStory(story[idea].text)//based on button clicked, run addStory with text
+      for(let idea of playerChoices){
+        addStory(story[idea].text)
       }
-      for (let idea of story[pageNow].options){//creates variable idea and used with story.options
-        createButton(idea[1],idea[0]);//creates buttons using options text
+      for (let idea of story[pageNow].options){
+        createButton(idea[1],idea[0]);
       }
     
     }
     
     restart.addEventListener("click", function(){
-      location.reload();//reloads page on click, resetting game
+      location.reload();
     });
     
-    restart.style.display = 'none';//hides restart button
+    restart.style.display = 'none';
     
-    x.addEventListener("click", function(){//on start button click
-      createStory(story.opener.text);//run createStory
-      restart.style.display = '';//unhide restart button
+    x.addEventListener("click", function(){
+      createStory(story.opener.text);
+      restart.style.display = '';
     });
     
-    }//end of window.onload, do NOT put any JS after this
-    
-    //image adder/replacer
+    }

@@ -413,10 +413,10 @@ jfk_visit_rebels: {
     var playerChoices = ["opener"];
   
 
-    var x = document.getElementById("beeg");
-    var restart = document.getElementById("restart");
+    var x = document.getElementById("TNOstart");
+    var restart = document.getElementById("TNOrestart");
     var playArea = document.getElementById("playArea");
-    var buttonArea = document.getElementById("buttonArea");
+    var buttonArea = document.getElementById("TNObuttonArea");
     var topmidimage = document.getElementById("dynamic-im");
 
     function createButton(btnText, choice) {

@@ -113,7 +113,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+@font-face { font-family: MIB; src: url('MIB.ttf'); } 
 .TNObody {
   display: grid;
   background: url("images/TNO/BaW/washingotndc.jpg");
@@ -123,8 +123,68 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+font-family: MIB, sans-serif;
+}
+#TNOrestart {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 2vh;
+  font-family: MIB, sans-serif;
+
 }
 
+#TNOrestart:hover{
+  transform: scale(0.9);
+}
+#TNObuttonArea button {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 1vh;
+  font-family: MIB, sans-serif;
+
+}
+
+#TNObuttonArea button:hover{
+  transform: scale(0.9);
+}
+
+#TNObuttonArea {
+  display: flex;
+  justify-content: space-around;
+}
+
+#TNOstart {
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 17vh;
+  font-family: MIB, sans-serif;
+
+}
+
+#TNOstart:hover{
+  transform: scale(0.9);
+}
 .slidercenter {
   margin-left: auto;
   margin-right: auto;
@@ -219,15 +279,16 @@
 /*TNO SPECIAL CUSTOMIZATION*/
 
 .tnotextbox{
-  padding: 6vh 0;
+  padding: 4.5vh 0;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  height: 35vh;
+  height: 40vh;
   color: white;
   margin-top:20px;
   background-color: #333;
+
 }
 
 #dynamic-image {
@@ -328,4 +389,23 @@
   color: white;
   margin-top:20px;
   background-color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .slider .cart .img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .slider .blankspace .img img {
+    object-fit: contain;
+  }
+  .slider .blankspace .img {
+    object-fit: contain;
+  }
+.scenariosbody {
+  background: plum;
+}
+
 }

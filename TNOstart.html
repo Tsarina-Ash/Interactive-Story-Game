@@ -19,13 +19,18 @@
     </div>
     
 
-
+<style>
+    @font-face { font-family: MIB; src: url('MIB.ttf'); } 
+div {
+    font-family: MIB, sans-serif;
+}
+</style>
     <img src="images\TNO\bigTNO2.jpg" alt="" id="dynamic-image">
     
 <!--https://www.w3schools.com/howto/howto_css_modals.asp-->
     <div class = "tnotextbox">
       
-        <button id="beeg" onclick="style.display = 'none'">
+        <button id="TNOstart" onclick="style.display = 'none'">
             START
         </button>
 
@@ -33,12 +38,12 @@
           <!-- empty div where text is replaced-->
         </div>
     
-        <div id="buttonArea">
+        <div id="TNObuttonArea">
           <!--empty div where buttons are added-->
         </div>
     
         <div id="smallArea">
-          <button id="restart">Restart</button>
+          <button id="TNOrestart">Restart</button>
           <!--restart button unhidden on start-->
         </div>
     </div>

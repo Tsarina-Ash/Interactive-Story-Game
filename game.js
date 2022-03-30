@@ -2,8 +2,8 @@ window.onload = function(){
     
   var gameName = {
       beginning: {
-          text:"",
-          choices: ""
+          text:"test",
+          choices: [["nix_intro", "Play As Nixon"], ["jfk_intro", "Play as JFK"], ["lbj_intro", "Play as LBJ"]],
       },
   };
   
@@ -12,8 +12,6 @@ window.onload = function(){
   var textAndDialogue = document.getElementById("amnesia");
   var choiceButtons = document.getElementById("choiceButtons");
   var resetButton = document.getElementById("resetButton");
-  var amnesiaWasHerName = document.getElementById("sheHadBeautifulEyes")
-  var andEveryWordSheSaid = document.getElementById("itWasALittleSurprise")
 
   function buttonCreator(btnText, choices) {
 var button = document.createElement("button");

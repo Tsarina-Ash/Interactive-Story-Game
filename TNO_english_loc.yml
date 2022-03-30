@@ -198,7 +198,7 @@ lbj_dont_support_impeachment_event: "President Nixon, he's saved us from a full-
 
 lbj_south_african_war: "Intervention in South Africa"
 
-lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. JFK Turns off the TV Lyndon ? 'Yes ?' Get me the phone to the defense secretary now."
+lbj_south_african_war: "After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. JFK Turns off the TV Lyndon ? "Yes ?"" Get me the phone to the defense secretary now."
 
 lbj_criticize_intervention: "Give A Speech In Congress To Shift Towards Anti-War Opinions"
 
@@ -214,7 +214,7 @@ lbj_visit_the_troops_event: "..The enemy has met their match here with us here, 
 
 lbj_interview: "Go To An Interview With A Reporter"
 
-lbj_interview_event: "The reporter clears their throat So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"
+lbj_interview_event: "The reporter clears their throat "So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"
 
 lbj_they_will_be_evacuated: "They will both be evacuated with the Navy keeping them secure"
 
@@ -246,7 +246,7 @@ lbj_whats_happening_event: "Someone turns on a radio Static Hisses Sorry for thi
 
 lbj_the_fillipino_situation: "A Defense Minister, A CIA Director, A WW2 Veteran and a Japanese Soldier Walk Into a Bar"
 
-lbj_the_fillipino_situation_event: "'Lyndon, Mister President ? The CIA director is here to see you', 'Great, let him in', the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. 'What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-' You get rudely interrupted as the director shushes you and you slam your fists on table and sit down 'Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see he briefly points towards the worn down soldier you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts.'"
+lbj_the_fillipino_situation_event: "Lyndon, Mister President ? The CIA director is here to see you", "Great, let him in", the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. "What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-" You get rudely interrupted as the director shushes you and you slam your fists on table and sit down "Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see he briefly points towards the worn down soldier you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts."
 
 lbj_public_lend_lease: "'Alright, ill sign some shipments of equipment your way'"
 
@@ -270,7 +270,7 @@ lbj_whatre_our_options_event: "'Now then what're our options here against the me
 
 lbj_let_them_in: "Let Them In"
 
-lbj_let_them_in: "Let them im quickly and get the FBI director here now, something big is happening now, its go time."
+lbj_let_them_in_event: "Let them im quickly and get the FBI director here now, something big is happening now, its go time."
 
 lbj_tell_them_to_wait: "Tell Them To Wait 20 Minutes"
 
@@ -282,7 +282,7 @@ lbj_they_cant_wait_event: "'Sir they say they can't wait for that long, they hav
 
 lbj_alright_let_them_in: "Alright Let Them In"
 
-lbj_alright_let_them_in: "Alright let them im quickly and get the FBI director here now, something big is happening now, its go time."
+lbj_alright_let_them_in_event: "Alright let them im quickly and get the FBI director here now, something big is happening now, its go time."
 
 lbj_lobby_for_support: "I Speak Tonight For The Dignity Of Man And The Destiny Of Democracy"
 

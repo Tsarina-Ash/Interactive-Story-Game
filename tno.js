@@ -282,21 +282,131 @@ jfk_visit_rebels: {
 
     lbj_support_impeachment:{
       text: `"President Nixon, has not been the best moral character nor a president that is for everyone, for the people has forgotten that while in the most important office in the world he is not immune to the law and he must be made aware of this fact. Through this we will send him a message he wont forget anytime soon."`,
-      options: [["lbj_papers_stolen", "It's Time We Got Off Our Seats"]],
+      options: [["lbj_south_african_war", "Intervention in South Africa"]],
      imgElem: "images/TNO/BaW/lbjaggressive.jpg"
     },
 
     lbj_dont_support_impeachment:{
       text: `"President Nixon, he's saved us from a full-on global nuclear conflict with the Empire Of Japan and has staved off Fascism from the Americas successfully preventing a takeover. He has always had the county's best interests in mind regardless of what the media has gone out on a full on blitz against him and his administration."`,
-      options: [["lbj_papers_stolen", "It's Time We Got Off Our Seats"]],
+      options: [["lbj_south_african_war", "Intervention in South Africa"]],
      imgElem: "images/TNO/BaW/lbjnixonhappy.jpg"
     },
 
+    lbj_south_african_war:{
+      text: `"After full consultation with the National Security Council, Ambassador Bunker, General Abrams, and my other advisers, I have concluded that the actions of the enemy in the last 10 days clearly endanger the lives of American citizens and American interests in Southern Africa and this would constitute an unacceptable risk to those who will be there after withdrawaling of 150,000 sailors, airforcemen and American citizens. This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance, if we're driven from the field we can no longer have the confidence put in our trust. JFK Turns off the TV Lyndon ? "Yes ?"" Get me the phone to the defense secretary now."`,
+      options: [["lbj_criticize_intervention", "Criticize Intervention"], ["lbj_support_intervention", "Give A Speech In Congress To Shift Towards Pro-War Opinions"]],
+     imgElem: "images/TNO/BaW/nixonstaffarmy.jpg"
+    },
 
+    lbj_criticize_intervention:{
+      text: `"A war, what is a war good for in these trying times, why spend billions of dollars in fruitless endevors across the oceans in conflicts that are strictly European and only for Europeans. Why spend money and send your sons to die for some territory that has little value when we have millions in these Untied States that wish to eat more than once a day, why do we choose to impoverish more people rather than reduce poverty ?"`,
+      options: [["lbj_visit_the_troops", "Visit The Troops"], ["lbj_interview", "Attend An Interview With A Reporter"]],
+     imgElem: "images/TNO/BaW/angrylbj.jpg"
+    },
 
+    lbj_support_intervention:{
+      text: `"Armed raider teams in very large numbers have been sent into South Africa to engage in sabotage and assassination. On January 19th, a 31-man team of German raiders invaded Cape Town with the object of murdering the President of the Dominion Of South Africa. In many of these aggressive actions, Korean and American soldiers have been killed and wounded. The Germans and their African subjects are apparently attempting to intimidate the South Africans and are trying to interrupt the growing spirit of confidence and progress in South Africa..."`,
+      options: [["lbj_visit_the_troops", "Visit The Troops"]],
+     imgElem: "images/TNO/BaW/malaysiansoldiers.jpg"
+    },
 
+    lbj_visit_the_troops:{
+      text: `"..The enemy has met their match here with us here, there will be no retreat, there will be no losses, there will be no defeat on our side with the enemy advancing and threathening our very way of life in the United States. You are now engaged in a vital mission for humanity's and democracy's survival across the globe, the fate of the world lays on your shoulders and the hundreds of future generations of your children and wives."`,
+      options: [["lbj_interview", "Attend An Interview With A Reporter"]],
+     imgElem: "images/TNO/BaW/lbjtroops.jpg"
+    },
 
+    lbj_interview:{
+      text: `The reporter clears their throat "So, Senator Lyndon as you know, President Nixon has decided to intervene and send almost a full hundred thousand American soldiers to South Africa and in his words 'This danger spurred by the German agression to expand their reach of terror, the South African nations fighting the Nazis cannot fight alone and require our assistance' Does this have anything to do with investments made by American businessmen and what will happen to those businesses, is this a war of war profiteering ? What is Nixon's plan for the war ? So in a short question, what about American civilians and businesses there in Africa, what will happen to them ?"`,
+      options: [["lbj_they_will_be_evacuated", "They will both be evacuated with the Navy keeping them secure"], ["lbj_they_will_be_protected", "They will all be protected and they will be kept secure"]],
+     imgElem: "images/TNO/BaW/lbjinterview.jpg"
+    },
     
+    lbj_they_will_be_evacuated:{
+      text: `"South Africa has now been overrun and is now a lost cause for American foreign interests and with this American businesses and the everyday people are ht emost affected by this loss, however all Americans within Africa will now be evacuated with the navy keeping them safe from any possible enemy ships and planes. They will both be evacuated with the Navy, keeping them secure."`,
+      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
+     imgElem: "images/TNO/BaW/vietnamnavy.jpg"
+    },
+
+    lbj_they_will_be_protected:{
+      text: `"South Africa is now a beacon, a bastion of light on a black continent of darkness. It is a matter that with all America's might we must inquire a victory in the lands that are far-away. I repeat, we wil defend our ground until the last bullet has been fired, we are also considering all possible options for weapons to use against the Germans, currently there is nothing off the table. These Americans will be protected through steel and blood within the safety of these United States, they will be protected and they will be kept secure. The invading Germans will be thrown back across the ocean with a heavy handed blow."`,
+      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
+     imgElem: "images/TNO/BaW/production.jpg"
+    },
+    
+    lbj_nixon_impeachment:{
+      text: `"As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
+      options: [["lbj_begin_campaign", "Begin Campaign For Vice-Presidency"]],
+     imgElem: "images/TNO/BaW/nixonspeech.jpg"
+    },
+
+    lbj_begin_campaign:{
+      text: `"...We are members together of such a party, the Republican-Democrat Party of 1964. We have written a proud record of accomplishments for all Americans. If any ask what we have done, just let them look at what we promised to do. For those promises have become our deeds. And the promises of tonight I can assure you will become the deeds of tomorrow. We are in the midst of the largest and the longest period of peacetime prosperity in our history. And almost every American listening to us tonight has seen the results in his own life. But prosperity for most has not brought prosperity to all. And those who have received the bounty of this land--who sit tonight secure in affluence and safe in power-must not now turn from the needs of their neighbors..."`,
+      options: [["lbj_campaining_for_nasa", "Campaign Cross-Country With President For The New Frontier"]],
+     imgElem: "images/TNO/BaW/lbforjvp.jpg"
+    },
+
+    lbj_campaining_for_nasa:{
+      text: `"Someone Knocks On The Door 'We've arrived in Dallas now Vice President, should I tell the president yet ?' 'Go, i'll be out soon, ill tell him myself' You walk down a tight hallway 'John, we're here'"`,
+      options: [["lbj_visit_nasa", "Visit NASA Headquarters"]],
+     imgElem: "images/TNO/BaW/lbforjvp.jpg"
+    },
+
+    lbj_visit_nasa:{
+      text: `"Hey driver turn off the radio, or i'll have you get into another car-" You get loudly interrupted as the escort motorcycles stop your car and tell you to quickly get back on the plane as your security detail fights until you all hear a massive amount of sirens go off heading towards the city center, "Lyndon- We have to get to the airport now, something's happening and its not good" You quickly run over to the airport as you get put onto Airforce One and into the air`,
+      options: [["lbj_whats_happening", "What In- Whats Going On Here ?"]],
+     imgElem: "images/TNO/BaW/secretservice.jpg"
+    },
+
+    lbj_whats_happening:{
+      text: `Someone turns on a television set and Static Hisses "Sorry for this interruption my fellow Americans, I'm Walker Crocknite here to give you an emergency broadcast I hadn't wished to ever have to say but President Kennedy has been shot and is being escorted to the Dallas hosptial getting medical treatment... The shooter has yet to be identified... We will keep you updated when a new development breaks through, stay safe..." the TV set hisses and goes back to a show as someone turns it off`,
+      options: [["lbj_sad_innaugaration", "This Is A Sad Time For All People"]],
+     imgElem: "images/TNO/BaW/lbjemergency.jpg"
+    },
+
+    lbj_sad_innaugaration:{
+      text: `"This is a sad time for all people. We have suffered a loss that cannot be weighed. For me, it is a deep personal tragedy. I know that the world shares the sorrow that Mrs. Kennedy and her family bear. I will do my best. That is all I can do. I ask for your help—and God's."`,
+      options: [["lbj_the_fillipino_situation", "A Defense Minister, A CIA Director, A Veteran and a Japanese Soldier Walk Into a Bar"]],
+     imgElem: "images/TNO/BaW/lbjsadinnaug.jpg"
+    },
+
+    lbj_the_fillipino_situation:{
+      text: `"Lyndon, Mister President ? The CIA director is here to see you", "Great, let him in", the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. "What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-" You get rudely interrupted as the director shushes you and you slam your fists on table and sit down "Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see he briefly points towards the worn down soldier you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts."`,
+      options: [["lbj_public_lend_lease", "Alright, ill sign some shipments of equipment your way"], ["lbj_use_operatives", "Use All Our Available Agents In South-East Asia To Assist Them"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+
+    lbj_public_lend_lease:{
+      text: `"We applaud this evidence of determination on the part of the South Africans, Fillipinos, our long lost soldiers, and Malaysians. Our first priority will be to support their effort. We shall accelerate the re-equipment of these nations's armed forces in order to meet the enemy's increased aggresiveness. And this will enable them progressively to undertake a larger share of offensive combat operations against the enemy invaders. On many occasions I have told the American people that we would send to them, those forces that are required to accomplish our mission there. So with that as our guide we have previously authorized a force level of approximately 725,000. Some weeks ago to help meet the enemy's new offensive we sent to South Africa about 37,000 additional Marines and airborne troops. They were deployed by air in 48 hours on an emergency basis. But the artillery and the tank and the aircraft and medical and other units that were needed to work with and support these infantry troops in combat could not then accompany them by air on that short notice. So I ask the congress and the American people of these United States to assist me in passing a bill to send a massive amount of our rotting stockpile to our forgotten soldiers in the Phillipines, your sons numbering in the hundreds of thousands all stranded on the Phillipines. MacArthur promised to his soldiers and the civilians that he would be back but he not only spoke for himself but spoke for Uncle Sam coming to save them in anyway possible. Malaysia used to be our best location for our former ally's navy and can be taken out of Japanese hand with the support of the common-folk. The South African war has had excelent results especialy in recent months with now more than 710,000 American combat personal now staged there."`,
+      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+    
+    lbj_use_operatives:{
+      text: `"Use all our available agents in South-East Asia to assist them in anyway possible, I don't want a trace of American involvment in this, tell me anything you need and I'll get it to you, simply tell me what you need and what you want and when."`,
+      options: [["lbj_the_malay_situation", "The Asian Giblraltar Situation"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+    
+    lbj_the_malay_situation:{
+      text: `"Malaysian rebels having fought off the Japanese since the beginning of their occupation have risen up enmasse and are mounting a strong resistance. The Gibraltar of Asia has now appeared to dislike having Japanese overlords, now its up to what the world will do if they do anything at all, fight for freedom and liberty or simple leave the masses to die yearning for freedom huddled as bombs fall on them."`,
+      options: [["lbj_use_all_tools", "Let's Open Our Toolbox Shall We ?"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+
+    lbj_use_all_tools:{
+      text: `"Lets open our toolbox and use all our tools available here, shall we ?' You slowly pick up the phone and ask your secretary to phone multiple generals, the defense minister of South Africa alongsides multiple rebel leaders from Malaysia and the Fillipino rebel representative. for a meeting tommorow."`,
+      options: [["lbj_whatre_our_options", "Now Then What're Our Options Here Against The Menace ?"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+    
+    lbj_whatre_our_options:{
+      text: `"Now then what're our options here against the menace-' You get rudely interrupted as you pick up the phone 'Sir, Madagascar's Obergruppenfuhrer is here to talk to you alongsides Albert Speer."`,
+      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
+     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+    },
+
+
     };
   
 

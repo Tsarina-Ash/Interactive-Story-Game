@@ -276,7 +276,7 @@ lbj_tell_them_to_wait: "Tell Them To Wait 20 Minutes"
 
 lbj_tell_them_to_wait_event: "Tell them to wait 20 minutes im in a quick meeting."
 
-lbj_they_cant_wait: "'Sir They Cant Wait'"
+lbj_tell: "'Sir They Cant Wait'"
 
 lbj_they_cant_wait_event: "'Sir they say they can't wait for that long, they have to leave soon. It Seems pretty urgent.'"
 

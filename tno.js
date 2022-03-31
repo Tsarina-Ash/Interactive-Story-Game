@@ -107,7 +107,7 @@ updateImage(story[part].imgElem);}
     },
 
     nix_watergate_resurfaced_impeached: {
-      text: `"As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hands of the Vice President, John F. Kennedy, being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
+      text: `"As of noon today, President Richard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hands of the Vice President, John F. Kennedy, being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
       imgElem: "images/TNO/BaW/nixon.jpg"
     },
 
@@ -335,7 +335,7 @@ jfk_visit_rebels: {
     },
     
     lbj_nixon_impeachment:{
-      text: `"As of noon today, President Richiard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
+      text: `"As of noon today, President Richard Nixon has resigned from his office, the President Of The United States. Being the first to do so since the country's inception. Being accused of wiretapping his rivals in the NPP during the 1960 Election as well as obstruction of justice for covering up the deed. The country is now in the hand of the Vice President, John F. Kennedy being America's first Catholic president. Whether he can step out of Nixon's administration's Shadow and forge his own legacy is yet to be seen."`,
       options: [["lbj_begin_campaign", "Begin Campaign For Vice-Presidency"]],
      imgElem: "images/TNO/BaW/nixonspeech.jpg"
     },
@@ -349,7 +349,7 @@ jfk_visit_rebels: {
     lbj_campaining_for_nasa:{
       text: `"Someone Knocks On The Door 'We've arrived in Dallas now Vice President, should I tell the president yet ?' 'Go, i'll be out soon, ill tell him myself' You walk down a tight hallway 'John, we're here'"`,
       options: [["lbj_visit_nasa", "Visit NASA Headquarters"]],
-     imgElem: "images/TNO/BaW/lbforjvp.jpg"
+     imgElem: "images/TNO/BaW/secretservice.jpg"
     },
 
     lbj_visit_nasa:{
@@ -373,39 +373,92 @@ jfk_visit_rebels: {
     lbj_the_fillipino_situation:{
       text: `"Lyndon, Mister President ? The CIA director is here to see you", "Great, let him in", the CIA director walks in with multiple people, one having a noticeable sunburn and looking half starved to death while the other being a Japanese soldier and behind him a secret agent. "What in the- Jim- Who and why did you bring these people into the white house and tell me why you have a Japan-" You get rudely interrupted as the director shushes you and you slam your fists on table and sit down "Lyndon, this soldier here was under MacAurthur's command in the Phillipines- This Japanese soldier is from the Phillipines or atleast thats what his story is and the operative behind him is the minister of defense in the Bengal Government. Now he tells us that the Japanese are planning on doing something soon in the Phillipines and it would be a massive win if OUR soldiers won that conflict however as you can see he briefly points towards the worn down soldier you can imagine they're not excactly in the best shape to fight back at the momment. They could seriously use some reinforcements, now you can help them if you want or not but you know the risks and the payouts."`,
       options: [["lbj_public_lend_lease", "Alright, ill sign some shipments of equipment your way"], ["lbj_use_operatives", "Use All Our Available Agents In South-East Asia To Assist Them"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+     imgElem: "images/TNO/BaW/lbjfbi.jpg"
     },
 
     lbj_public_lend_lease:{
       text: `"We applaud this evidence of determination on the part of the South Africans, Fillipinos, our long lost soldiers, and Malaysians. Our first priority will be to support their effort. We shall accelerate the re-equipment of these nations's armed forces in order to meet the enemy's increased aggresiveness. And this will enable them progressively to undertake a larger share of offensive combat operations against the enemy invaders. On many occasions I have told the American people that we would send to them, those forces that are required to accomplish our mission there. So with that as our guide we have previously authorized a force level of approximately 725,000. Some weeks ago to help meet the enemy's new offensive we sent to South Africa about 37,000 additional Marines and airborne troops. They were deployed by air in 48 hours on an emergency basis. But the artillery and the tank and the aircraft and medical and other units that were needed to work with and support these infantry troops in combat could not then accompany them by air on that short notice. So I ask the congress and the American people of these United States to assist me in passing a bill to send a massive amount of our rotting stockpile to our forgotten soldiers in the Phillipines, your sons numbering in the hundreds of thousands all stranded on the Phillipines. MacArthur promised to his soldiers and the civilians that he would be back but he not only spoke for himself but spoke for Uncle Sam coming to save them in anyway possible. Malaysia used to be our best location for our former ally's navy and can be taken out of Japanese hand with the support of the common-folk. The South African war has had excelent results especialy in recent months with now more than 710,000 American combat personal now staged there."`,
-      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+      options: [["lbj_the_malay_situation", "The Asian Giblraltar Situation"]],
+     imgElem: "images/TNO/BaW/lbjspeech3.jpg"
     },
     
     lbj_use_operatives:{
       text: `"Use all our available agents in South-East Asia to assist them in anyway possible, I don't want a trace of American involvment in this, tell me anything you need and I'll get it to you, simply tell me what you need and what you want and when."`,
       options: [["lbj_the_malay_situation", "The Asian Giblraltar Situation"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+     imgElem: "images/TNO/BaW/vietnamcia.jpg"
     },
     
     lbj_the_malay_situation:{
       text: `"Malaysian rebels having fought off the Japanese since the beginning of their occupation have risen up enmasse and are mounting a strong resistance. The Gibraltar of Asia has now appeared to dislike having Japanese overlords, now its up to what the world will do if they do anything at all, fight for freedom and liberty or simple leave the masses to die yearning for freedom huddled as bombs fall on them."`,
       options: [["lbj_use_all_tools", "Let's Open Our Toolbox Shall We ?"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+     imgElem: "images/TNO/BaW/malaysiansoldiers.jpg"
     },
 
     lbj_use_all_tools:{
       text: `"Lets open our toolbox and use all our tools available here, shall we ?' You slowly pick up the phone and ask your secretary to phone multiple generals, the defense minister of South Africa alongsides multiple rebel leaders from Malaysia and the Fillipino rebel representative. for a meeting tommorow."`,
       options: [["lbj_whatre_our_options", "Now Then What're Our Options Here Against The Menace ?"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+     imgElem: "images/TNO/BaW/lbjtoolbox.jpg"
     },
     
     lbj_whatre_our_options:{
       text: `"Now then what're our options here against the menace-' You get rudely interrupted as you pick up the phone 'Sir, Madagascar's Obergruppenfuhrer is here to talk to you alongsides Albert Speer."`,
-      options: [["lbj_nixon_impeachment", "Nixon Resigns From Presidency"]],
-     imgElem: "images/TNO/BaW/lbjaggressive.jpg"
+      options: [["lbj_let_them_in", "Let Them In"], ["lbj_tell_them_to_wait", "Tell Them To Wait"]],
+     imgElem: "images/TNO/BaW/lbjfrustratedphone.jpg"
     },
 
+    lbj_let_them_in:{
+      text: `"Let them in quickly and get the FBI director here now, something big is happening now, its go time."`,
+      options: [["lbj_lobby_for_support", "Its Go Time"]],
+     imgElem: "images/TNO/BaW/albertspeer.jpg"
+    },
+
+    lbj_tell_them_to_wait:{
+      text: `"Tell them to wait 20 minutes im in a quick meeting"`,
+      options: [["lbj_let_them_in", "Alright Let Them In"], ["lbj_lobby_for_support", "I Said To Wait"]],
+     imgElem: "images/TNO/BaW/lbjfrustratedphone.jpg"
+    },
+
+//lbj finale
+
+    lbj_lobby_for_support:{
+      text: `"Mr. Speaker, Mr. Vice President, Members of the Congress: I speak tonight for the dignity of man and the destiny of democracy. I urge every member of both parties, Americans of all religions and of all colors, from every section of this country, to join me in that cause. At times history and fate meet at a single time in a single place to shape a turning point in man's unending search for freedom. So it was at Lexington and Concord. So it was a century ago at Appomattox. So it was last week in Selma, Alabama. There, long-suffering men and women peacefully protested the denial of their rights as Americans. Many were brutally assaulted. One good man, a man of God, was killed. There is no cause for pride in what has happened in Selma. There is no cause for self-satisfaction in the long denial of equal rights of millions of Americans. But there is cause for hope and for faith in our democracy in what is happening here tonight. For the cries of pain and the hymns and protests of oppressed people have summoned into convocation all the majesty of this great Government—the Government of the greatest Nation on earth..."`,
+      options: [["lbj_great_society", "Begin Great Society Programs"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+     imgElem: "images/TNO/BaW/lbjspeechtocongress.jpg"
+    },   
+
+
+//lbj great society programs
+
+lbj_great_society:{
+  text: `"But most of all, the Great Society is not a safe harbor, a resting place, a final objective, a finished work. It is a challenge constantly renewed, beckoning us toward a destiny where the meaning of our lives matches the marvelous products of our labor. So I want to talk to you today about three places where we begin to build the Great Society — in our cities, in our countryside, and in our classrooms..."`,
+  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+}, 
+
+lbj_mlk_civil_rights_act:{
+  text: `"One hundred and eighty-eight years ago this week a small band of valiant men began a long struggle for freedom. They pledged their lives, their fortunes, and their sacred honor not only to found a nation, but to forge an ideal of freedom—not only for political independence, but for personal liberty—not only to eliminate foreign rule, but to establish the rule of justice in the affairs of men. That struggle was a turning point in our history. Today in far corners of distant continents, the ideals of those American patriots still shape the struggles of men who hunger for freedom. This is a proud triumph. Yet those who founded our country knew that freedom would be secure only if each generation fought to renew and enlarge its meaning. From the minutemen at Concord to the soldiers in Viet-Nam, each generation has been equal to that trust. Americans of every race and color have died in battle to protect our freedom. Americans of every race and color have worked to build a nation of widening opportunities. Now our generation of Americans has been called on to continue the unending search for justice within our own borders. We believe that all men are created equal. Yet many are denied equal treatment. We believe that all men have certain unalienable rights. Yet many Americans do not enjoy those rights. We believe that all men are entitled to the blessings of liberty. Yet millions are being deprived of those blessings—not because of their own failures, but because of the color of their skin."`,
+  options: [["lbj_education_reform", "The Question Of Education"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/MLKLBJ.jpg"
+}, 
+
+lbj_education_reform:{
+  text: `"But more classrooms and more teachers are not enough. We must seek an educational system which grows in excellence as it grows in size. This means better training for our teachers. It means preparing youth to enjoy their hours of leisure as well as their hours of labor. It means exploring new techniques of teaching, to find new ways to stimulate the love of learning and the capacity for creation. These are three of the central issues of the Great Society. While our Government has many programs directed at those issues, I do not pretend that we have the full answer to those problems. But I do promise this: We are going to assemble the best thought and the broadest knowledge from all over the world to find those answers for America. I intend to establish working groups to prepare a series of White House conferences and meetings — on the cities, on natural beauty, on the quality of education, and on other emerging challenges. And from these meetings and from this inspiration and from these studies we will begin to set our course toward the Great Society."`,
+  options: [["lbj_safety_nets", "Nixon Resigns From Presidency"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjcia.jpg"
+}, 
+
+lbj_safety_nets:{
+  text: `"Because of social security, tens of millions of Americans have been able to stand straighter and taller unafraid of their future ... Measured in dollars of insurance benefits, the bill enacted into law today is the greatest stride forward since social security was launched in 1935"`,
+  options: [["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjpoverty.jpg"
+}, 
+
+//ending the game finally
+
+lbj_final_words:{
+  text: `"Mr. Speaker, Mr. Vice President, Members of the Congress: I speak tonight for the dignity of man and the destiny of democracy. I urge every member of both parties, Americans of all religions and of all colors, from every section of this country, to join me in that cause. At times history and fate meet at a single time in a single place to shape a turning point in man's unending search for freedom. So it was at Lexington and Concord. So it was a century ago at Appomattox. So it was last week in Selma, Alabama. There, long-suffering men and women peacefully protested the denial of their rights as Americans. Many were brutally assaulted. One good man, a man of God, was killed. There is no cause for pride in what has happened in Selma. There is no cause for self-satisfaction in the long denial of equal rights of millions of Americans. But there is cause for hope and for faith in our democracy in what is happening here tonight. For the cries of pain and the hymns and protests of oppressed people have summoned into convocation all the majesty of this great Government—the Government of the greatest Nation on earth. With America's sons in the fields far away, with America's future under challenge right here at home, with our hopes and the world's hopes for peace in the balance every day, I do not believe that I should devote an hour or a day of my time to any personal partisan causes or to any duties other than the awesome duties of this office--the Presidency of your country. Accordingly, I shall not seek, and I will not accept, the nomination of my party for another term as your President. But let men everywhere know, however, that a strong, a confident, and a vigilant America stands ready tonight to seek an honorable peace--and stands ready tonight to defend an honored cause--whatever the price, whatever the burden, whatever the sacrifice that duty may require. Thank you for listening. Good night and God bless all of you."`,
+ imgElem: "images/TNO/BaW/lbjcowboy.jpg"
+},  
 
     };
   

@@ -18,15 +18,177 @@
         <a href="scenarios.html" class="active">Scenarios</a>
     </div>
     
-
-<style>
-    @font-face { font-family: MIB; src: url('MIB.ttf'); } 
-div {
-    font-family: MIB, sans-serif;
-}
-</style>
     <img src="images\TNO\bigTNO2.jpg" alt="" id="dynamic-image">
     
+<style>
+
+@-webkit-keyframes flicker {
+  0% {
+    opacity: 0.7554364739;
+  }
+  5% {
+    opacity: 0.8599659531;
+  }
+  10% {
+    opacity: 0.8133805755;
+  }
+  15% {
+    opacity: 0.5873225454;
+  }
+  20% {
+    opacity: 0.2429104411;
+  }
+  25% {
+    opacity: 0.8526782329;
+  }
+  30% {
+    opacity: 0.0147127992;
+  }
+  35% {
+    opacity: 0.607668669;
+  }
+  40% {
+    opacity: 0.3685961692;
+  }
+  45% {
+    opacity: 0.7769777789;
+  }
+  50% {
+    opacity: 0.5618169417;
+  }
+  55% {
+    opacity: 0.0287456877;
+  }
+  60% {
+    opacity: 0.9166069488;
+  }
+  65% {
+    opacity: 0.1288422109;
+  }
+  70% {
+    opacity: 0.6809776295;
+  }
+  75% {
+    opacity: 0.3090536304;
+  }
+  80% {
+    opacity: 0.0722602546;
+  }
+  85% {
+    opacity: 0.5964007107;
+  }
+  90% {
+    opacity: 0.6166999448;
+  }
+  95% {
+    opacity: 0.9595063855;
+  }
+  100% {
+    opacity: 0.2559304432;
+  }
+}
+@keyframes flicker {
+  0% {
+    opacity: 0.7554364739;
+  }
+  5% {
+    opacity: 0.8599659531;
+  }
+  10% {
+    opacity: 0.8133805755;
+  }
+  15% {
+    opacity: 0.5873225454;
+  }
+  20% {
+    opacity: 0.2429104411;
+  }
+  25% {
+    opacity: 0.8526782329;
+  }
+  30% {
+    opacity: 0.0147127992;
+  }
+  35% {
+    opacity: 0.607668669;
+  }
+  40% {
+    opacity: 0.3685961692;
+  }
+  45% {
+    opacity: 0.7769777789;
+  }
+  50% {
+    opacity: 0.5618169417;
+  }
+  55% {
+    opacity: 0.0287456877;
+  }
+  60% {
+    opacity: 0.9166069488;
+  }
+  65% {
+    opacity: 0.1288422109;
+  }
+  70% {
+    opacity: 0.6809776295;
+  }
+  75% {
+    opacity: 0.3090536304;
+  }
+  80% {
+    opacity: 0.0722602546;
+  }
+  85% {
+    opacity: 0.5964007107;
+  }
+  90% {
+    opacity: 0.6166999448;
+  }
+  95% {
+    opacity: 0.9595063855;
+  }
+  100% {
+    opacity: 0.2559304432;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.TNOcontainer::after, :root::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: rgba(31, 31, 31, 0.1);
+  opacity: 0;
+  -webkit-animation: flicker 0.15s infinite;
+  animation: flicker 0.15s infinite;
+}
+
+.TNOcontainer::before, :root::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(rgba(31, 31, 31, 0) 50%, rgba(6, 6, 6, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 2px, 3px 100%;
+}
+</style>
+
 <!--https://www.w3schools.com/howto/howto_css_modals.asp-->
     <div class = "tnotextbox">
       

@@ -431,14 +431,20 @@ jfk_visit_rebels: {
 
 lbj_great_society:{
   text: `"But most of all, the Great Society is not a safe harbor, a resting place, a final objective, a finished work. It is a challenge constantly renewed, beckoning us toward a destiny where the meaning of our lives matches the marvelous products of our labor. So I want to talk to you today about three places where we begin to build the Great Society — in our cities, in our countryside, and in our classrooms..."`,
-  options: [["lbj_bloody_sunday", "Bloody Sunday"]],
+  options: [["lbj_unexpected_visitor", "An Unexpected Visitor"]],
  imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
 }, 
 
+lbj_unexpected_visitor:{
+  text: `"I don't see how President Johnson can send troops to South Africa-I don't see how he can send troops to India-I don't see how he can send troops to Asia and can't send troops to Selma Alabama."`,
+  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_bloody_sunday", "Can't Help Right Now"]],
+ imgElem: "images/TNO/BaW/lbjmlk2.jpg"
+}, 
+
 lbj_bloody_sunday:{
-  text: `"What happened in Selma is part of a far larger movement which reaches into every section and State of America. It is the effort of American Negroes to secure for themselves the full blessings of American life. Their cause must be our cause too. Because it is not just Negroes, but really it is all of us, who must overcome the crippling legacy of bigotry and injustice. And we shall overcome. lives matches the marvelous products of our labor. So I want to talk to you today about three places where we begin to build the Great Society — in our cities, in our countryside, and in our classrooms..."`,
-  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_war_on_poverty2", "Declare War On Poverty"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjcandidacy.jpg"
+  text: `"I don't see how President Johnson can send troops to South Africa-I don't see how he can send troops to India-I don't see how he can send troops to Asia and can't send troops to Selma Alabama."`,
+  options: [["lbj_mlk_civil_rights_act", "Civil Rights Act Of 1965"], ["lbj_war_on_poverty", "War On Poverty"]],
+ imgElem: "images/TNO/BaW/selma.jpg"
 }, 
 
 //prioritization of civil rights//
@@ -452,7 +458,7 @@ lbj_mlk_civil_rights_act:{
 lbj_voting_rights_act:{
   text: `"This afternoon, as we gather here in this historic room in the White House, I think we can all take some heart that democracy's work is being done. In the Civil Rights Act of 1966 America does move forward and the bell of freedom rings out a little louder. We have come some of the way, not near all of it. There is much yet to do. If the Congress sees fit to act upon these twenty messages and some fifteen appropriations bills, I assure you that what remains to be done will be recommended in ample time for you to do it after you have completed what is already before you. Thank you very much."`,
   options: [["lbj_fair_housing_act", "Fair Housing For Americans"], ["lbj_war_on_poverty2", "Begin A War On Poverty"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjspeech.jpg"
+ imgElem: "images/TNO/BaW/lbjspeech4.jpg"
 }, 
 
 lbj_fair_housing_act:{
@@ -466,25 +472,25 @@ lbj_fair_housing_act:{
 lbj_war_on_poverty2:{
   text: `"On similar occasions in the past we have often been called upon to wage war against foreign enemies which threatened our freedom. Today we are asked to declare war on a domestic enemy which threatens the strength of our nation and the welfare of our people. If we now move forward against this enemy—if we can bring to the challenges of peace the same determination and strength which has brought us victory in war—then this day and this Congress will have won a secure and honorable place in the history of the nation and the enduring gratitude of generations of Americans yet to come."`,
   options: [["lbj_economic_opportunity_act2", "Poverty Has Been His Curse"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+ imgElem: "images/TNO/BaW/lbjwaronpoverty.jpg"
 }, 
 
 lbj_economic_opportunity_act2:{
   text: `"My fellow Americans, on this occasion the American people and our American system are making history. For so long as man has lived on this earth poverty has been his curse. On every continent in every age men have sought escape from poverty's oppression. Today for the first time in all the history of the human race, a great nation is able to make and is willing to make a commitment to eradicate poverty among its people. Whatever our situation in life, whatever our partisan affiliation, we can be grateful and proud that we are able to pledge ourselves this morning to this historic course. We can be especially proud of the nature of the commitments that we are making. This is not in any sense a cynical proposal to exploit the poor with a promise of a handout or a dole. We know--we learned long ago--that answer is no answer.The measure before me this morning for signature offers the answer that its title implies--the answer of opportunity. For the purpose of the Economic Opportunity Act of 1966 is to offer opportunity, not an opiate. For the million young men and women who are out of school and who are out of work, this program will permit us to take them off the streets, put them into work training programs, to prepare them for productive lives, not wasted lives."`,
   options: [["lbj_vista2", "The First Frontline Volunteers In Our War Against Poverty"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+ imgElem: "images/TNO/BaW/greatsociety2.jpg"
 }, 
 
 lbj_vista2:{
   text: `"I want to welcome you here today, the first frontline volunteers in our war against poverty. You have come from every part of this country, from every age group, from every background. You have come to serve the poor and the unfortunate of American society, and to open the door of American opportunity to all of our American people. Your pay will be low; the conditions of your labor will often be difficult. But you will have the satisfaction of leading a great national effort, and you will have the ultimate reward which comes to those who serve their Nation and who serve their fellow man."`,
   options: [["lbj_headstart_program2", "Poverty Has Been His Curse"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+ imgElem: "images/TNO/BaW/lbjvista.jpg"
 }, 
 
 lbj_headstart_program2:{
   text: `"Today we are able to announce that we will have open, and we believe operating this summer, coast-to-coast, some 2,000 child development centers serving as many as possibly a half million children. This means that nearly half the preschool children of poverty will get a head start on their future. These children will receive preschool training to prepare them for regular school in September. They will get medical and dental attention that they badly need, and parents will receive counseling on improving the home environment."`,
   options: [["lbj_education_reform", "Open A New Front In Education Against Impoverishment"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+ imgElem: "images/TNO/BaW/headstartprogram.jpg"
 }, 
 
 //prioritization of war on poverty POVERTY PROGRAMS//
@@ -492,33 +498,54 @@ lbj_headstart_program2:{
 lbj_war_on_poverty:{
   text: `"On similar occasions in the past we have often been called upon to wage war against foreign enemies which threatened our freedom. Today we are asked to declare war on a domestic enemy which threatens the strength of our nation and the welfare of our people. If we now move forward against this enemy—if we can bring to the challenges of peace the same determination and strength which has brought us victory in war—then this day and this Congress will have won a secure and honorable place in the history of the nation and the enduring gratitude of generations of Americans yet to come."`,
   options: [["lbj_mlk_civil_rights_act_pov_1", "Bible Belt On Fire"], ["lbj_economic_opportunity_act", "Poverty Has Been His Curse"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+ imgElem: "images/TNO/BaW/lbjwaronpoverty.jpg"
 }, 
 
 lbj_economic_opportunity_act:{
   text: `"My fellow Americans, on this occasion the American people and our American system are making history. For so long as man has lived on this earth poverty has been his curse. On every continent in every age men have sought escape from poverty's oppression. Today for the first time in all the history of the human race, a great nation is able to make and is willing to make a commitment to eradicate poverty among its people. Whatever our situation in life, whatever our partisan affiliation, we can be grateful and proud that we are able to pledge ourselves this morning to this historic course. We can be especially proud of the nature of the commitments that we are making. This is not in any sense a cynical proposal to exploit the poor with a promise of a handout or a dole. We know--we learned long ago--that answer is no answer.The measure before me this morning for signature offers the answer that its title implies--the answer of opportunity. For the purpose of the Economic Opportunity Act of 1966 is to offer opportunity, not an opiate. For the million young men and women who are out of school and who are out of work, this program will permit us to take them off the streets, put them into work training programs, to prepare them for productive lives, not wasted lives."`,
-  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_vista", "The First Frontline Volunteers In Our War Against Poverty"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+  options: [["lbj_mlk_civil_rights_act_pov_1", "Bible Belt On Fire"], ["lbj_vista", "The First Frontline Volunteers In Our War Against Poverty"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/greatsociety2.jpg"
 }, 
 
 lbj_vista:{
   text: `"I want to welcome you here today, the first frontline volunteers in our war against poverty. You have come from every part of this country, from every age group, from every background. You have come to serve the poor and the unfortunate of American society, and to open the door of American opportunity to all of our American people. Your pay will be low; the conditions of your labor will often be difficult. But you will have the satisfaction of leading a great national effort, and you will have the ultimate reward which comes to those who serve their Nation and who serve their fellow man."`,
-  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_economic_opportunity_act", "Poverty Has Been His Curse"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+  options: [["lbj_mlk_civil_rights_act_pov_1", "Bible Belt On Fire"], ["lbj_headstart_program", "Poverty Has Been His Curse"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjvista.jpg"
 }, 
 
 lbj_headstart_program:{
   text: `"Today we are able to announce that we will have open, and we believe operating this summer, coast-to-coast, some 2,000 child development centers serving as many as possibly a half million children. This means that nearly half the preschool children of poverty will get a head start on their future. These children will receive preschool training to prepare them for regular school in September. They will get medical and dental attention that they badly need, and parents will receive counseling on improving the home environment."`,
-  options: [["lbj_mlk_civil_rights_act", "Bible Belt On Fire"], ["lbj_economic_opportunity_act", "Poverty Has Been His Curse"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjgreatsociety.jpg"
+  options: [["lbj_mlk_civil_rights_act_pov_1", "Bible Belt On Fire"],  ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/headstartprogram.jpg"
 }, 
+
+//prioritzation of war on poverty CIVIL RIGHTS PROGRAMS//
+
+lbj_mlk_civil_rights_act_pov_1:{
+  text: `"One hundred and eighty-eight years ago this week a small band of valiant men began a long struggle for freedom. They pledged their lives, their fortunes, and their sacred honor not only to found a nation, but to forge an ideal of freedom—not only for political independence, but for personal liberty—not only to eliminate foreign rule, but to establish the rule of justice in the affairs of men. That struggle was a turning point in our history. Today in far corners of distant continents, the ideals of those American patriots still shape the struggles of men who hunger for freedom. This is a proud triumph. Yet those who founded our country knew that freedom would be secure only if each generation fought to renew and enlarge its meaning. From the minutemen at Concord to the soldiers in Viet-Nam, each generation has been equal to that trust. Americans of every race and color have died in battle to protect our freedom. Americans of every race and color have worked to build a nation of widening opportunities. Now our generation of Americans has been called on to continue the unending search for justice within our own borders. We believe that all men are created equal. Yet many are denied equal treatment. We believe that all men have certain unalienable rights. Yet many Americans do not enjoy those rights. We believe that all men are entitled to the blessings of liberty. Yet millions are being deprived of those blessings—not because of their own failures, but because of the color of their skin."`,
+  options: [["lbj_voting_rights_act_pov_1", "The Question Of Education"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjspeech3.jpg"
+}, 
+
+lbj_voting_rights_act_pov_1:{
+  text: `"This afternoon, as we gather here in this historic room in the White House, I think we can all take some heart that democracy's work is being done. In the Civil Rights Act of 1966 America does move forward and the bell of freedom rings out a little louder. We have come some of the way, not near all of it. There is much yet to do. If the Congress sees fit to act upon these twenty messages and some fifteen appropriations bills, I assure you that what remains to be done will be recommended in ample time for you to do it after you have completed what is already before you. Thank you very much."`,
+  options: [["lbj_fair_housing_act_pov_1", "Fair Housing For Americans"],["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjspeech.jpg"
+}, 
+
+lbj_fair_housing_act_pov_1:{
+  text: `"Members of the Congress, Members of the Cabinet, distinguished Americans, and guests. On an April afternoon in the year 1966, I asked a distinguished group of citizens who were interested in human rights to meet me in the Cabinet Room in the White House. In their presence that afternoon, I signed a message to the Congress. That message called for the enactment of "the first effective federal law against discrimination in the sale and the rental of housing" in the United States of America. Few in the Nation--and the record will show that very few in that room that afternoon--believed that fair housing would--in our time--become the unchallenged law of this land. And indeed, this bill has had a long and stormy trip. We did not get it in 1966. We pleaded for it again in 1965. But the Congress took no action that year. We asked for it again this year. And now--at long last this afternoon--its day has come."`,
+  options: [["lbj_education_reform", "Open A New Front In Education Against Impoverishment"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
+ imgElem: "images/TNO/BaW/lbjspeech2.jpg"
+}, 
+
 
 //generic lbj laws ONLY CAN BE ENACTED AFTER SPECIAL LAWS ARE DONE//
 
 lbj_education_reform:{
   text: `"But more classrooms and more teachers are not enough. We must seek an educational system which grows in excellence as it grows in size. This means better training for our teachers. It means preparing youth to enjoy their hours of leisure as well as their hours of labor. It means exploring new techniques of teaching, to find new ways to stimulate the love of learning and the capacity for creation. These are three of the central issues of the Great Society. While our Government has many programs directed at those issues, I do not pretend that we have the full answer to those problems. But I do promise this: We are going to assemble the best thought and the broadest knowledge from all over the world to find those answers for America. I intend to establish working groups to prepare a series of White House conferences and meetings — on the cities, on natural beauty, on the quality of education, and on other emerging challenges. And from these meetings and from this inspiration and from these studies we will begin to set our course toward the Great Society."`,
   options: [["lbj_safety_nets", "Nixon Resigns From Presidency"], ["lbj_final_words", "Good evening, my fellow Americans..."]],
- imgElem: "images/TNO/BaW/lbjcia.jpg"
+ imgElem: "images/TNO/BaW/medicare.jpg"
 }, 
 
 lbj_safety_nets:{
